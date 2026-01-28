@@ -4,7 +4,7 @@
 // Navigation items configuration
 const navItems = [
     { href: 'index.html', text: 'Home' },
-    { href: 'services.html', text: 'Services' },
+    { href: 'services/index.html', text: 'Services' },
     { href: 'about.html', text: 'About Us' },
     { href: 'partners.html', text: 'Partners' },
     { href: 'contact.html', text: 'Contact' }

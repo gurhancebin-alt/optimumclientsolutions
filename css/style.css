@@ -1059,3 +1059,61 @@ footer p {
         font-size: 2rem;
     }
 }
+
+/* Bootstrap Card Hover Effect */
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Hero Section for Service Pages */
+.hero-section {
+    padding: 80px 0 60px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.hero-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Icon Box Styling */
+.icon-box {
+    display: inline-block;
+}
+
+/* Breadcrumb Styling */
+.breadcrumb {
+    background: transparent;
+    padding: 0;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "›";
+    color: #6c757d;
+}
+
+.breadcrumb-item a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+    text-decoration: underline;
+}
+
+/* Accordion Custom Styling */
+.accordion-button:not(.collapsed) {
+    background-color: #f8f9fa;
+    color: #0066cc;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0, 0, 0, 0.125);
+}
