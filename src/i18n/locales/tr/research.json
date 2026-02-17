@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "title": "Araştırma Merkezi - Optimum Client Solutions",
+    "description": "Pazar analizi, SWOT modelleme ve tedarik zinciri içgörüleri sunan stratejik istihbarat merkezi."
+  },
+  "hero": {
+    "title": "Stratejik İstihbarat Merkezi",
+    "subtitle": "Biz tavsiye değil, metadata ve pazar analizi dolu PDF raporları sunuyoruz."
+  },
+  "tabs": {
+    "market": "Pazar",
+    "swot": "SWOT",
+    "supply": "Tedarik"
+  },
+  "market": {
+    "title": "2024 Moda Pazar Trendleri",
+    "description": "Moda nişinin gerçek zamanlı analizi. Fhrase.com için sürdürülebilir malzemelerde %45 büyüme potansiyeli belirledik."
+  },
+  "swot": {
+    "title": "Stratejik Etki Matrisi",
+    "description": "SWOT modellerimiz, teknolojik avantajın (95/100) modern butikler için en büyük farklılaştırıcı olduğunu gösteriyor."
+  },
+  "supply": {
+    "title": "Tedarik Zinciri Verimliliği",
+    "description": "Fhrase için zincir optimizasyonu, 'stok tükenme' olaylarında %25 azalma sağladı."
+  },
+  "sourcing": {
+    "title": "Tedarik ve 3PL",
+    "description": "Yerel üreticilerden dropship çözümlerine kadar tedarikçi zincirlerini tarıyoruz."
+  },
+  "services": {
+    "heading": "Araştırma Hizmetleri",
+    "items": [
+      { "title": "Pazar Analizi Raporları", "description": "Eyleme dönüştürülebilir içgörüler ve büyüme fırsatları içeren hedef pazarınızın derinlemesine analizi." },
+      { "title": "Rekabetçi İstihbarat", "description": "Kapsamlı rakip analizi ve konumlandırma stratejisi önerileri." },
+      { "title": "Tedarik Zinciri Optimizasyonu", "description": "3PL ve lojistik önerileriyle uçtan uca tedarik zinciri analizi." },
+      { "title": "Trend Tahmini", "description": "Pazar değişimlerinin önünde kalmanızı sağlayan AI destekli trend tahmini." }
+    ]
+  },
+  "cta": {
+    "heading": "Özel Raporunuzu Alın",
+    "description": "Nişinize özel kapsamlı bir pazar analizi alın."
+  }
+}

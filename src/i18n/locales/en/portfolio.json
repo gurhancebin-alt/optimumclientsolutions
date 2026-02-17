@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Portfolio - Optimum Client Solutions",
+    "description": "See our proven results and client success stories."
+  },
+  "hero": {
+    "title": "Portfolio",
+    "subtitle": "We show results, not pictures"
+  },
+  "cases": {
+    "heading": "Case Studies",
+    "description": "Real results from real client partnerships."
+  },
+  "fhrase": {
+    "name": "Fhrase.com",
+    "type": "Online Fashion Boutique",
+    "status": "LIVE",
+    "roi": "42%",
+    "roiLabel": "ROI Increase",
+    "ops": "AI-sync",
+    "opsLabel": "Ops Tooling",
+    "reach": "Global",
+    "reachLabel": "Sourcing",
+    "description": "For Fhrase we built a fully 'hands-off' ecosystem. From an automated supply chain with 3PL integration to AI-generated fashion copy that aligns with their premium branding.",
+    "tags": ["Shopify Headless", "AI Metadata", "3PL Logistics"],
+    "challenge": "Fhrase needed a scalable e-commerce solution that could handle global sourcing, automated inventory management, and premium brand presentation without manual overhead.",
+    "solution": "We built a headless Shopify storefront with AI-powered content generation, 3PL logistics integration, and real-time stock synchronization across suppliers.",
+    "results": [
+      "42% increase in ROI within the first quarter",
+      "Fully automated supply chain with 3PL integration",
+      "AI-generated product descriptions matching premium brand voice",
+      "25% reduction in out-of-stock incidents",
+      "Global sourcing network establishment"
+    ]
+  },
+  "partners": {
+    "heading": "Partnership Categories",
+    "tech": {
+      "title": "Technology Partners",
+      "description": "Leading software and technology providers enabling digital transformation and innovation."
+    },
+    "industry": {
+      "title": "Industry Partners",
+      "description": "Sector-specific experts providing specialized knowledge and domain expertise."
+    },
+    "knowledge": {
+      "title": "Knowledge Partners",
+      "description": "Research institutions and thought leaders driving insights and best practices."
+    },
+    "service": {
+      "title": "Service Partners",
+      "description": "Complementary service providers extending our capabilities and reach."
+    }
+  },
+  "benefits": {
+    "heading": "Partnership Benefits",
+    "items": [
+      { "title": "Enhanced Solutions", "text": "Access to integrated solutions combining multiple expertise areas for comprehensive client outcomes." },
+      { "title": "Innovation Access", "text": "Early adoption of emerging technologies and methodologies through partner ecosystems." },
+      { "title": "Global Reach", "text": "Extended geographic coverage and local expertise through our partner network." },
+      { "title": "Proven Excellence", "text": "Certified methodologies and best practices from recognized industry leaders." }
+    ]
+  },
+  "cta": {
+    "heading": "Ready to Start Your Success Story?",
+    "description": "Book a free audit meeting and discover how we can transform your digital presence and drive measurable growth for your business.",
+    "scheduleAudit": "Schedule Free Audit",
+    "viewServices": "View Our Services"
+  },
+  "valueProposition": {
+    "heading": "Real Results for Real Businesses",
+    "description": "Every project is a testament to our commitment to excellence and measurable growth",
+    "strategic": {
+      "title": "Strategic Approach",
+      "description": "Every solution is tailored to your specific business goals, ensuring maximum impact and ROI."
+    },
+    "growth": {
+      "title": "Measurable Growth",
+      "description": "We focus on metrics that matter - revenue growth, conversion rates, and customer satisfaction."
+    },
+    "partnership": {
+      "title": "Partnership Mindset",
+      "description": "We work alongside you as dedicated partners, invested in your long-term success."
+    }
+  },
+  "faq": {
+    "title": "Portfolio FAQ",
+    "subtitle": "Common questions about our work and case studies"
+  }
+}

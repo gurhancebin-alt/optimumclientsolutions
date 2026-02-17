@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Contact - Optimum Client Solutions",
+    "description": "Neem contact op met Optimum Client Solutions om uw bedrijfsbehoeften te bespreken."
+  },
+  "hero": {
+    "title": "Contact",
+    "subtitle": "Laten we bespreken hoe wij uw bedrijf kunnen helpen slagen"
+  },
+  "intro": {
+    "heading": "Neem Contact Op",
+    "description": "Heeft u een vraag of bent u klaar om een project te starten? We horen graag van u. Vul het onderstaande formulier in en ons team neemt binnen 24 uur contact met u op."
+  },
+  "form": {
+    "name": "Volledige Naam",
+    "namePlaceholder": "Jan de Vries",
+    "email": "E-mailadres",
+    "emailPlaceholder": "jan@bedrijf.nl",
+    "phone": "Telefoonnummer",
+    "phonePlaceholder": "+31 6 12345678",
+    "company": "Bedrijfsnaam",
+    "companyPlaceholder": "Uw Bedrijf",
+    "serviceCategory": "Dienstcategorie",
+    "categoryPlaceholder": "Selecteer een dienstcategorie...",
+    "serviceChild": "Specifieke Dienst",
+    "childPlaceholder": "Selecteer een specifieke dienst...",
+    "message": "Bericht",
+    "messagePlaceholder": "Vertel ons over uw project of vraag...",
+    "newsletter": "Ik ontvang graag updates en inzichten van Optimum Client Solutions",
+    "submit": "Gratis Consultatie Aanvragen",
+    "sending": "Verzenden...",
+    "required": "Verplichte velden. Wij respecteren uw privacy en delen nooit uw informatie."
+  },
+  "success": {
+    "heading": "Bedankt voor uw bericht!",
+    "text": "We hebben uw aanvraag ontvangen en u een bevestigingsmail gestuurd. Ons team neemt binnen 24 uur contact met u op.",
+    "redirect": "Controleer uw inbox voor de volgende stappen"
+  },
+  "error": {
+    "heading": "Oeps! Er ging iets mis.",
+    "text": "Probeer het opnieuw of neem direct contact met ons op via"
+  },
+  "info": {
+    "heading": "Contactgegevens",
+    "email": "E-mail",
+    "emailAddress": "gurhan.cebin@optimumclientsolutions.com",
+    "responseTime": "Reactietijd",
+    "responseValue": "Binnen 24 uur",
+    "consultation": "Consultatie",
+    "consultationValue": "Gratis eerste consultatie beschikbaar",
+    "whatsapp": "Chat op WhatsApp"
+  },
+  "social": {
+    "heading": "Verbind Met Ons",
+    "description": "Volg ons op social media voor updates, inzichten en branchenieuws."
+  },
+  "faq": {
+    "title": "Contact FAQ",
+    "subtitle": "Vragen over contact opnemen en samenwerken"
+  }
+}

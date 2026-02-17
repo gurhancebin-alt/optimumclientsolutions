@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Portföy - Optimum Client Solutions",
+    "description": "Kanıtlanmış sonuçlarımızı ve müşteri başarı hikayelerimizi görün."
+  },
+  "hero": {
+    "title": "Portföy",
+    "subtitle": "Biz resim değil, sonuç gösteriyoruz"
+  },
+  "cases": {
+    "heading": "Vaka Çalışmaları",
+    "description": "Gerçek müşteri ortaklıklarından gerçek sonuçlar."
+  },
+  "fhrase": {
+    "name": "Fhrase.com",
+    "type": "Online Moda Butiği",
+    "status": "YAYINDA",
+    "roi": "42%",
+    "roiLabel": "ROI Artışı",
+    "ops": "AI-senkronizasyon",
+    "opsLabel": "Ops Araçları",
+    "reach": "Global",
+    "reachLabel": "Tedarik",
+    "description": "Fhrase için tamamen 'ellere değmeden' bir ekosistem kurduk. 3PL entegrasyonlu otomatik tedarik zincirinden premium markalarına uygun AI tarafından oluşturulan moda metinlerine kadar.",
+    "tags": ["Shopify Headless", "AI Metadata", "3PL Lojistik"],
+    "challenge": "Fhrase'in manuel yük olmadan küresel tedarik, otomatik envanter yönetimi ve premium marka sunumu yapabilecek ölçeklenebilir bir e-ticaret çözümüne ihtiyacı vardı.",
+    "solution": "AI destekli içerik oluşturma, 3PL lojistik entegrasyonu ve tedarikçiler arasında gerçek zamanlı stok senkronizasyonu ile headless bir Shopify vitrin kurduk.",
+    "results": [
+      "İlk çeyrekte ROI'de %42 artış",
+      "3PL entegrasyonu ile tamamen otomatik tedarik zinciri",
+      "Premium marka sesine uygun AI üretimli ürün açıklamaları",
+      "Stok tükenme olaylarında %25 azalma",
+      "Küresel tedarik ağı kurulumu"
+    ]
+  },
+  "partners": {
+    "heading": "Ortaklık Kategorileri",
+    "tech": {
+      "title": "Teknoloji Ortakları",
+      "description": "Dijital dönüşüm ve yeniliği sağlayan önde gelen yazılım ve teknoloji sağlayıcıları."
+    },
+    "industry": {
+      "title": "Sektör Ortakları",
+      "description": "Uzmanlaşmış bilgi ve alan uzmanlığı sağlayan sektöre özel uzmanlar."
+    },
+    "knowledge": {
+      "title": "Bilgi Ortakları",
+      "description": "İçgörüleri ve en iyi uygulamaları yönlendiren araştırma kurumları ve düşünce liderleri."
+    },
+    "service": {
+      "title": "Hizmet Ortakları",
+      "description": "Yeteneklerimizi ve erişimimizi genişleten tamamlayıcı hizmet sağlayıcıları."
+    }
+  },
+  "benefits": {
+    "heading": "Ortaklık Faydaları",
+    "items": [
+      { "title": "Gelişmiş Çözümler", "text": "Kapsamlı müşteri sonuçları için birden fazla uzmanlık alanını birleştiren entegre çözümlere erişim." },
+      { "title": "Yenilik Erişimi", "text": "Ortak ekosistemler aracılığıyla yeni teknolojileri ve metodolojileri erken benimseme." },
+      { "title": "Küresel Erişim", "text": "Ortak ağımız aracılığıyla genişletilmiş coğrafi kapsama ve yerel uzmanlık." },
+      { "title": "Kanıtlanmış Mükemmellik", "text": "Tanınmış sektör liderlerinden sertifikalı metodolojiler ve en iyi uygulamalar." }
+    ]
+  },
+  "cta": {
+    "heading": "Başarı Hikayenizi Başlatmaya Hazır mısınız?",
+    "description": "Ücretsiz bir denetim toplantısı ayarlayın ve dijital varlığınızı nasıl dönüştürebileceğimizi ve ölçülebilir büyüme sağlayabileceğimizi keşfedin.",
+    "scheduleAudit": "Ücretsiz Denetim Planla",
+    "viewServices": "Hizmetlerimizi Görüntüle"
+  },
+  "valueProposition": {
+    "heading": "Gerçek İşletmeler İçin Gerçek Sonuçlar",
+    "description": "Her proje, mükemmelliğe ve ölçülebilir büyümeye olan bağlılığımızın bir kanıtıdır",
+    "strategic": {
+      "title": "Stratejik Yaklaşım",
+      "description": "Her çözüm, maksimum etki ve ROI sağlamak için özel iş hedeflerinize göre uyarlanmıştır."
+    },
+    "growth": {
+      "title": "Ölçülebilir Büyüme",
+      "description": "Önemli olan metriklere odaklanıyoruz - gelir artışı, dönüşüm oranları ve müşteri memnuniyeti."
+    },
+    "partnership": {
+      "title": "Ortaklık Anlayışı",
+      "description": "Uzun vadeli başarınıza yatırım yapan adanmış ortaklar olarak yanınızda çalışıyoruz."
+    }
+  },
+  "faq": {
+    "title": "Portföy SSS",
+    "subtitle": "Çalışmalarımız ve örnek olaylar hakkında sık sorulan sorular"
+  }
+}

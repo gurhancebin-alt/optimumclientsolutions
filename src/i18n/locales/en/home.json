@@ -1,0 +1,139 @@
+{
+  "badge": "NEXT-GEN E-COMMERCE INTELLIGENCE",
+  "hero": {
+    "line1": "We don't build shops.",
+    "line2": "We build",
+    "highlight": "profit machines.",
+    "subtitle": "The strategic nerve center where AI automation and deep market intelligence meet for the modern e-commerce entrepreneur."
+  },
+  "services": {
+    "heading": "Our Engine",
+    "description": "Three pillars that make manual work obsolete and growth predictable.",
+    "viewAll": "View All Services",
+    "moreInfo": "More Info",
+    "build": {
+      "label": "Website Development",
+      "sub": "High-performance e-commerce platforms",
+      "heading": "Website Development",
+      "description": "High-performance, headless commerce architectures built for scale and conversion.",
+      "services": {
+        "ecommerce": {
+          "title": "E-commerce Platform Development",
+          "keywords": ["Shopify", "WooCommerce", "Custom"]
+        },
+        "design": {
+          "title": "Design & UX",
+          "keywords": ["Responsive", "Conversion", "Branding"]
+        },
+        "custom": {
+          "title": "Custom Development & Automation",
+          "keywords": ["APIs", "Integrations", "Workflows"]
+        },
+        "seo": {
+          "title": "SEO & Performance Optimization",
+          "keywords": ["Speed", "SEO", "Analytics"]
+        }
+      }
+    },
+    "automate": {
+      "label": "Multi-Channel Market Opportunity",
+      "sub": "Channel optimization & automation",
+      "heading": "Multi-Channel Market Opportunity",
+      "description": "Maximize revenue across all channels with intelligent optimization and automation strategies.",
+      "services": {
+        "marketplace": {
+          "title": "Marketplace Optimization",
+          "keywords": ["Amazon", "eBay", "Walmart"]
+        },
+        "advertising": {
+          "title": "Paid Advertising Optimization",
+          "keywords": ["Google Ads", "Meta", "ROAS"]
+        },
+        "organic": {
+          "title": "Organic Channel Growth",
+          "keywords": ["SEO", "Content", "Social"]
+        },
+        "intelligence": {
+          "title": "Channel Intelligence",
+          "keywords": ["Analytics", "Reporting", "Insights"]
+        },
+        "expansion": {
+          "title": "Strategic Market Expansion",
+          "keywords": ["Growth", "Strategy", "Scaling"]
+        },
+        "email": {
+          "title": "Email & SMS Automation",
+          "keywords": ["Campaigns", "Flows", "Retention"]
+        }
+      }
+    },
+    "research": {
+      "label": "Intelligence Lab",
+      "sub": "Data-driven insights & sourcing",
+      "heading": "Intelligence Lab",
+      "description": "Strategic intelligence and research services that transform data into actionable growth opportunities.",
+      "services": {
+        "product": {
+          "title": "Product & Supplier Intelligence",
+          "keywords": ["Sourcing", "Vetting", "Quality"]
+        },
+        "influencer": {
+          "title": "Influencer Partnership Sourcing",
+          "keywords": ["Outreach", "Vetting", "ROI"]
+        },
+        "keyword": {
+          "title": "Keyword & Search Intelligence",
+          "keywords": ["Research", "Trends", "Ranking"]
+        },
+        "reporting": {
+          "title": "Reporting & Performance Intelligence",
+          "keywords": ["KPIs", "Dashboards", "Insights"]
+        },
+        "strategic": {
+          "title": "Strategic Analysis",
+          "keywords": ["Competitor", "Market", "Opportunities"]
+        }
+      }
+    }
+  },
+  "portfolio": {
+    "heading": "Featured Work",
+    "description": "Real results from real projects",
+    "viewAll": "View All Cases",
+    "viewCase": "View Case Study",
+    "fashionPhrase": {
+      "name": "Fashion Phrase",
+      "website": "fhrase.com",
+      "description": "Online fashion boutique",
+      "usp": "EU sustainable sourcing in fashion",
+      "industry": "Fashion E-commerce",
+      "status": "Active"
+    },
+    "tgcCompany": {
+      "name": "TGC Company",
+      "website": "tgccompany.com",
+      "description": "Premium lifestyle brand",
+      "usp": "Direct-to-consumer luxury goods",
+      "industry": "Lifestyle & Retail",
+      "status": "In Progress"
+    },
+    "nextPhaseSoccer": {
+      "name": "Next Phase Soccer",
+      "website": "nextphasesoccer.com",
+      "description": "Professional soccer training platform",
+      "usp": "Elite mentorship & performance analytics",
+      "industry": "Sports & Education",
+      "status": "Completed"
+    }
+  },
+  "contact": {
+    "heading": "Ready for the next step?",
+    "description": "Receive a free market report and AI audit of your current shop.",
+    "emailPlaceholder": "Email address",
+    "submit": "Request PDF Report"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Common questions about our services and approach"
+  }
+}

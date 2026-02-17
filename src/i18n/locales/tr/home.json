@@ -1,0 +1,139 @@
+{
+  "badge": "YENİ NESİL E-TİCARET ZEKASI",
+  "hero": {
+    "line1": "Biz mağaza kurmuyoruz.",
+    "line2": "Biz",
+    "highlight": "kâr makineleri",
+    "subtitle": "Modern e-ticaret girişimcileri için yapay zeka otomasyonu ve derin pazar zekasının buluştuğu stratejik sinir merkezi."
+  },
+  "services": {
+    "heading": "Motorumuz",
+    "description": "Manuel çalışmayı geçersiz kılan ve büyümeyi öngörülebilir hale getiren üç sütun.",
+    "viewAll": "Tüm Hizmetleri Görüntüle",
+    "moreInfo": "Daha Fazla Bilgi",
+    "build": {
+      "label": "Web Sitesi Geliştirme",
+      "sub": "Yüksek performanslı e-ticaret platformları",
+      "heading": "Web Sitesi Geliştirme",
+      "description": "Ölçek ve dönüşüm için tasarlanmış yüksek performanslı, headless ticaret mimarileri.",
+      "services": {
+        "ecommerce": {
+          "title": "E-ticaret Platform Geliştirme",
+          "keywords": ["Shopify", "WooCommerce", "Özel"]
+        },
+        "design": {
+          "title": "Tasarım & UX",
+          "keywords": ["Responsive", "Dönüşüm", "Markalaşma"]
+        },
+        "custom": {
+          "title": "Özel Geliştirme & Otomasyon",
+          "keywords": ["API'ler", "Entegrasyonlar", "İş Akışları"]
+        },
+        "seo": {
+          "title": "SEO & Performans Optimizasyonu",
+          "keywords": ["Hız", "SEO", "Analitik"]
+        }
+      }
+    },
+    "automate": {
+      "label": "Çok Kanallı Pazar Fırsatı",
+      "sub": "Kanal optimizasyonu ve otomasyon",
+      "heading": "Çok Kanallı Pazar Fırsatı",
+      "description": "Akıllı optimizasyon ve otomasyon stratejileriyle tüm kanallarda geliri maksimize edin.",
+      "services": {
+        "marketplace": {
+          "title": "Marketplace Optimizasyonu",
+          "keywords": ["Amazon", "eBay", "Walmart"]
+        },
+        "advertising": {
+          "title": "Ücretli Reklam Optimizasyonu",
+          "keywords": ["Google Ads", "Meta", "ROAS"]
+        },
+        "organic": {
+          "title": "Organik Kanal Büyümesi",
+          "keywords": ["SEO", "İçerik", "Sosyal"]
+        },
+        "intelligence": {
+          "title": "Kanal İstihbaratı",
+          "keywords": ["Analitik", "Raporlama", "İçgörüler"]
+        },
+        "expansion": {
+          "title": "Stratejik Pazar Genişlemesi",
+          "keywords": ["Büyüme", "Strateji", "Ölçekleme"]
+        },
+        "email": {
+          "title": "E-posta & SMS Otomasyonu",
+          "keywords": ["Kampanyalar", "Akışlar", "Elde Tutma"]
+        }
+      }
+    },
+    "research": {
+      "label": "İstihbarat Laboratuvarı",
+      "sub": "Veriye dayalı içgörüler ve tedarik",
+      "heading": "İstihbarat Laboratuvarı",
+      "description": "Veriyi eyleme dönüştürülebilir büyüme fırsatlarına çeviren stratejik istihbarat ve araştırma hizmetleri.",
+      "services": {
+        "product": {
+          "title": "Ürün & Tedarikçi İstihbaratı",
+          "keywords": ["Tedarik", "Değerlendirme", "Kalite"]
+        },
+        "influencer": {
+          "title": "Influencer Ortaklık Tedariki",
+          "keywords": ["İletişim", "Değerlendirme", "ROI"]
+        },
+        "keyword": {
+          "title": "Anahtar Kelime & Arama İstihbaratı",
+          "keywords": ["Araştırma", "Trendler", "Sıralama"]
+        },
+        "reporting": {
+          "title": "Raporlama & Performans İstihbaratı",
+          "keywords": ["KPI'lar", "Panolar", "İçgörüler"]
+        },
+        "strategic": {
+          "title": "Stratejik Analiz",
+          "keywords": ["Rakip", "Pazar", "Fırsatlar"]
+        }
+      }
+    }
+  },
+  "portfolio": {
+    "heading": "Öne Çıkan Çalışmalar",
+    "description": "Gerçek projelerden gerçek sonuçlar",
+    "viewAll": "Tüm Vakaları Görüntüle",
+    "viewCase": "Vaka Çalışmasını Görüntüle",
+    "fashionPhrase": {
+      "name": "Fashion Phrase",
+      "website": "fhrase.com",
+      "description": "Online moda butiği",
+      "usp": "Modada AB sürdürülebilir tedarik",
+      "industry": "Moda E-ticaret",
+      "status": "Aktif"
+    },
+    "tgcCompany": {
+      "name": "TGC Company",
+      "website": "tgccompany.com",
+      "description": "Premium yaşam tarzı markası",
+      "usp": "Doğrudan tüketiciye lüks ürünler",
+      "industry": "Yaşam Tarzı & Perakende",
+      "status": "Devam Ediyor"
+    },
+    "nextPhaseSoccer": {
+      "name": "Next Phase Soccer",
+      "website": "nextphasesoccer.com",
+      "description": "Profesyonel futbol antrenman platformu",
+      "usp": "Elit mentorluk & performans analitiği",
+      "industry": "Spor & Eğitim",
+      "status": "Tamamlandı"
+    }
+  },
+  "contact": {
+    "heading": "Bir sonraki adım için hazır mısınız?",
+    "description": "Mevcut mağazanızın ücretsiz pazar raporu ve AI denetimini alın.",
+    "emailPlaceholder": "E-posta adresi",
+    "submit": "PDF Rapor İste"
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Hizmetlerimiz ve yaklaşımımız hakkında sık sorulan sorular"
+  }
+}

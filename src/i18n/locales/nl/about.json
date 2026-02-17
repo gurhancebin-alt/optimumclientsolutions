@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "title": "E-commerce Data Analist & Strateeg | Gürhan - Optimum Client Solutions",
+    "description": "Datagedreven e-commerce strategie op het snijvlak van analytics, marktplaats-intelligentie en operationele uitvoering."
+  },
+  "sections": {
+    "story": {
+      "title": "Van Implementatie naar Strategie",
+      "subtitle": "De evolutie van tactische uitvoering naar datagedreven besluitvorming"
+    },
+    "philosophy": {
+      "title": "Hoe Ik E-commerce Strategie Benader",
+      "subtitle": "Drie kernprincipes die elke aanbeveling leiden"
+    },
+    "framework": {
+      "title": "Het 5-Fasen Onderzoeksraamwerk",
+      "subtitle": "Een gestructureerde aanpak voor productvalidatie en markttoetredingsstrategie"
+    },
+    "tools": {
+      "title": "Tools & Platformen die Ik Gebruik",
+      "subtitle": "Geavanceerde e-commerce analytics en intelligence platforms voor uitgebreid onderzoek",
+      "note": "Al het onderzoek wordt uitgevoerd met gelicentieerde, professionele tools — geen shortcuts, geen aannames."
+    },
+    "audience": {
+      "title": "Met Wie Ik Werk",
+      "subtitle": "E-commerce ondernemers op twee belangrijke keerpunten"
+    },
+    "testimonials": {
+      "title": "Wat Klanten het Meest Waarderen",
+      "subtitle": "Feedback van e-commerce ondernemers die het onderzoek hebben gebruikt"
+    },
+    "cta": {
+      "title": "Geen Strategie. Geen Tactieken.",
+      "highlight": "Intelligentie.",
+      "description": "Als je op zoek bent naar een consultant die in platitudes praat, ben ik niet jouw man. Als je iemand wilt die marktdata kan ophalen, productideeën kan valideren en gestructureerd onderzoek kan leveren waar je echt mee aan de slag kunt — laten we praten.",
+      "primary": "Bekijk Intelligence Services",
+      "secondary": "Neem Contact Op"
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen",
+      "subtitle": "Veel voorkomende vragen over het onderzoeksproces en de resultaten"
+    }
+  }
+}

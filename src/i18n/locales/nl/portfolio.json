@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Portfolio - Optimum Client Solutions",
+    "description": "Bekijk onze bewezen resultaten en succesverhalen van klanten."
+  },
+  "hero": {
+    "title": "Portfolio",
+    "subtitle": "Wij tonen resultaten, geen plaatjes"
+  },
+  "cases": {
+    "heading": "Case Studies",
+    "description": "Echte resultaten van echte klantpartnerschappen."
+  },
+  "fhrase": {
+    "name": "Fhrase.com",
+    "type": "Online Fashion Boutique",
+    "status": "LIVE",
+    "roi": "42%",
+    "roiLabel": "ROI Stijging",
+    "ops": "AI-sync",
+    "opsLabel": "Ops Tooling",
+    "reach": "Global",
+    "reachLabel": "Sourcing",
+    "description": "Voor Fhrase hebben we een volledig 'hands-off' ecosysteem gebouwd. Van een geautomatiseerde supply chain met 3PL integratie tot AI-gegenereerde fashion copy die aansluit bij hun premium branding.",
+    "tags": ["Shopify Headless", "AI Metadata", "3PL Logistiek"],
+    "challenge": "Fhrase had een schaalbare e-commerce oplossing nodig die wereldwijde sourcing, geautomatiseerd voorraadbeheer en premium merkpresentatie zonder handmatige overhead kon afhandelen.",
+    "solution": "Wij hebben een headless Shopify storefront gebouwd met AI-aangedreven contentgeneratie, 3PL logistiek integratie en real-time voorraadsynchronisatie over leveranciers.",
+    "results": [
+      "42% stijging in ROI binnen het eerste kwartaal",
+      "Volledig geautomatiseerde supply chain met 3PL integratie",
+      "AI-gegenereerde productbeschrijvingen passend bij premium merkidentiteit",
+      "25% afname van 'out-of-stock' incidenten",
+      "Opzet van wereldwijd sourcing netwerk"
+    ]
+  },
+  "partners": {
+    "heading": "Partner Categorieën",
+    "tech": {
+      "title": "Technologie Partners",
+      "description": "Toonaangevende software- en technologieleveranciers die digitale transformatie en innovatie mogelijk maken."
+    },
+    "industry": {
+      "title": "Branche Partners",
+      "description": "Sectorspecifieke experts die gespecialiseerde kennis en domeinexpertise bieden."
+    },
+    "knowledge": {
+      "title": "Kennis Partners",
+      "description": "Onderzoeksinstellingen en thought leaders die inzichten en best practices stimuleren."
+    },
+    "service": {
+      "title": "Service Partners",
+      "description": "Complementaire dienstverleners die onze capaciteiten en bereik uitbreiden."
+    }
+  },
+  "benefits": {
+    "heading": "Partner Voordelen",
+    "items": [
+      { "title": "Verbeterde Oplossingen", "text": "Toegang tot geïntegreerde oplossingen die meerdere expertisegebieden combineren." },
+      { "title": "Innovatie Toegang", "text": "Vroege adoptie van opkomende technologieën en methodologieën via partner ecosystemen." },
+      { "title": "Wereldwijd Bereik", "text": "Uitgebreide geografische dekking en lokale expertise via ons partnernetwerk." },
+      { "title": "Bewezen Excellentie", "text": "Gecertificeerde methodologieën en best practices van erkende brancheleiders." }
+    ]
+  },
+  "cta": {
+    "heading": "Klaar om Uw Succesverhaal te Starten?",
+    "description": "Boek een gratis audit en ontdek hoe we uw digitale aanwezigheid kunnen transformeren en meetbare groei kunnen stimuleren.",
+    "scheduleAudit": "Plan Gratis Audit",
+    "viewServices": "Bekijk Onze Diensten"
+  },
+  "valueProposition": {
+    "heading": "Echte Resultaten voor Echte Bedrijven",
+    "description": "Elk project is een bewijs van onze toewijding aan excellentie en meetbare groei",
+    "strategic": {
+      "title": "Strategische Aanpak",
+      "description": "Elke oplossing is afgestemd op uw specifieke bedrijfsdoelen, voor maximale impact en ROI."
+    },
+    "growth": {
+      "title": "Meetbare Groei",
+      "description": "We richten ons op metrics die ertoe doen - omzetgroei, conversieratio's en klanttevredenheid."
+    },
+    "partnership": {
+      "title": "Partner Mentaliteit",
+      "description": "We werken naast u als toegewijde partners, geïnvesteerd in uw langetermijnsucces."
+    }
+  },
+  "faq": {
+    "title": "Portfolio FAQ",
+    "subtitle": "Veelgestelde vragen over ons werk en case studies"
+  }
+}

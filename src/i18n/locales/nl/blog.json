@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Blog - Optimum Client Solutions",
+    "description": "Inzichten over e-commerce strategie, marktplaatsoptimalisatie en datagedreven groei."
+  },
+  "hero": {
+    "title": "E-commerce Inzichten",
+    "subtitle": "Bruikbare strategieën voor marktplaatssucces"
+  },
+  "search": {
+    "placeholder": "Artikelen zoeken...",
+    "noResults": "Geen artikelen gevonden die overeenkomen met uw zoekopdracht.",
+    "clearSearch": "Zoekopdracht wissen"
+  },
+  "categories": {
+    "all": "Alle Artikelen",
+    "heading": "Categorieën"
+  },
+  "articles": {
+    "readMore": "Lees Meer",
+    "readTime": "min leestijd",
+    "publishedOn": "Gepubliceerd op",
+    "featured": "Uitgelicht",
+    "latest": "Laatste Artikelen",
+    "related": "Gerelateerde Artikelen",
+    "backToBlog": "Terug naar Blog",
+    "tableOfContents": "Inhoudsopgave",
+    "nextArticle": "Volgend Artikel",
+    "tags": "Tags"
+  },
+  "sidebar": {
+    "trending": "Trending",
+    "recentPosts": "Recente Berichten",
+    "popularTags": "Populaire Tags"
+  },
+  "cta": {
+    "heading": "Blijf Op de Hoogte",
+    "description": "Ontvang de nieuwste e-commerce inzichten in uw inbox.",
+    "subscribe": "Abonneren"
+  },
+  "faq": {
+    "title": "Blog FAQ",
+    "subtitle": "Vragen over onze content en bronnen"
+  }
+}

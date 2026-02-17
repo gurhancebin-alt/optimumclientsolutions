@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "intelligence": "Intelligence Hub",
+    "research": "Research Hub",
+    "freeAudit": "Free Audit"
+  },
+  "footer": {
+    "description": "The strategic nerve center where AI automation and deep market intelligence meet for the modern e-commerce entrepreneur.",
+    "quickLinks": "Quick Links",
+    "connect": "Connect With Us",
+    "copyright": "Strategic Nerve Center - Data-Driven E-commerce"
+  },
+  "cta": {
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "learnMore": "Learn More",
+    "getInTouch": "Get in Touch",
+    "viewPortfolio": "View Portfolio",
+    "startGrowthLab": "Start Growth Lab",
+    "requestReport": "Request PDF Report",
+    "startAudit": "Start the audit"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "about": "Hakkımızda",
+    "portfolio": "Portföy",
+    "blog": "Blog",    "intelligence": "İstihbarat Merkezi",    "research": "Araştırma Merkezi",
+    "freeAudit": "Ücretsiz Analiz"
+  },
+  "footer": {
+    "description": "Modern e-ticaret girişimcileri için yapay zeka otomasyonu ve derin pazar zekasının buluştuğu stratejik sinir merkezi.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "connect": "Bizimle Bağlantı Kurun",
+    "copyright": "Stratejik Sinir Merkezi - Veriye Dayalı E-ticaret"
+  },
+  "cta": {
+    "getStarted": "Başlayın",
+    "contactUs": "Bize Ulaşın",
+    "learnMore": "Daha Fazla Bilgi",
+    "getInTouch": "İletişime Geçin",
+    "viewPortfolio": "Portföyü Görüntüle",
+    "startGrowthLab": "Büyüme Laboratuvarını Başlat",
+    "requestReport": "PDF Rapor İste",
+    "startAudit": "Analizi başlat"
+  }
+}

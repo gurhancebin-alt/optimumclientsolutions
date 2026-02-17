@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Blog - Optimum Client Solutions",
+    "description": "E-ticaret stratejisi, pazar yeri optimizasyonu ve veriye dayalı büyüme hakkında içgörüler."
+  },
+  "hero": {
+    "title": "E-ticaret İçgörüleri",
+    "subtitle": "Pazar yeri başarısı için uygulanabilir stratejiler"
+  },
+  "search": {
+    "placeholder": "Makale ara...",
+    "noResults": "Aramanızla eşleşen makale bulunamadı.",
+    "clearSearch": "Aramayı temizle"
+  },
+  "categories": {
+    "all": "Tüm Makaleler",
+    "heading": "Kategoriler"
+  },
+  "articles": {
+    "readMore": "Devamını Oku",
+    "readTime": "dk okuma",
+    "publishedOn": "Yayınlanma tarihi",
+    "featured": "Öne Çıkan",
+    "latest": "Son Makaleler",
+    "related": "İlgili Makaleler",
+    "backToBlog": "Bloğa Dön",
+    "tableOfContents": "İçindekiler",
+    "nextArticle": "Sonraki Makale",
+    "tags": "Etiketler"
+  },
+  "sidebar": {
+    "trending": "Trend",
+    "recentPosts": "Son Yazılar",
+    "popularTags": "Popüler Etiketler"
+  },
+  "cta": {
+    "heading": "Güncel Kalın",
+    "description": "En son e-ticaret içgörülerini e-postanıza alın.",
+    "subscribe": "Abone Ol"
+  },
+  "faq": {
+    "title": "Blog SSS",
+    "subtitle": "İçeriklerimiz ve kaynaklarımız hakkında sorular"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "title": "Onze Diensten - Optimum Client Solutions",
+    "description": "Ontdek ons uitgebreide dienstenaanbod op het gebied van webontwikkeling, marketing en e-commerce."
+  },
+  "hero": {
+    "title": "Onze Diensten",
+    "subtitle": "Uitgebreide digitale oplossingen om uw bedrijf te transformeren"
+  },
+  "categories": {
+    "webdev": {
+      "title": "Website Development",
+      "description": "High-performance, op maat gemaakte websites en webapplicaties die resultaten opleveren. Van headless commerce tot full-stack oplossingen.",
+      "features": ["Shopify & Headless Commerce", "Custom Webapplicaties", "React & Next.js Development"]
+    },
+    "marketing": {
+      "title": "Marketing Kanalen",
+      "description": "Multi-channel marketingstrategieën aangedreven door AI en data-analyse. Bereik uw doelgroep waar ze zijn.",
+      "features": ["Social Media Marketing", "E-mail Marketing Automatisering", "Content Marketing Strategie"]
+    },
+    "ecommerce": {
+      "title": "eCommerce Oplossingen",
+      "description": "End-to-end e-commerce optimalisatie van winkelinrichting tot conversieoptimalisatie en supply chain management.",
+      "features": ["Winkel Setup & Configuratie", "Betaalgateway Integratie", "Conversie Optimalisatie"]
+    }
+  },
+  "cta": {
+    "heading": "Klaar om Uw Bedrijf te Transformeren?",
+    "description": "Laten we bespreken hoe onze diensten u kunnen helpen uw doelen te bereiken.",
+    "explore": "Bekijk Diensten"
+  },
+  "serviceDetail": {
+    "features": "Belangrijkste Kenmerken & Voordelen",
+    "process": "Ons Proces",
+    "packages": "Dienstpakketten",
+    "faq": "Veelgestelde Vragen",
+    "getStarted": "Aan de Slag",
+    "contactUs": "Neem Contact Op"
+  },
+  "faq": {
+    "title": "Veelgestelde Vragen",
+    "subtitle": "Veelvoorkomende vragen over onze diensten",
+    "websiteDevelopment": {
+      "title": "Website Ontwikkeling FAQ",
+      "subtitle": "Vragen over onze webontwikkelingsdiensten"
+    },
+    "marketOptimization": {
+      "title": "Markt & Kanaal Optimalisatie FAQ",
+      "subtitle": "Vragen over multi-channel marketing en optimalisatie"
+    },
+    "ecommerceSolutions": {
+      "title": "E-commerce Oplossingen FAQ",
+      "subtitle": "Vragen over onze intelligence en onderzoeksdiensten"
+    }
+  }
+}

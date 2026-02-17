@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "İstihbarat Merkezi - Optimum Client Solutions",
+    "description": "Profesyonel PDF raporlarında sunulan veri destekli pazar analizi. E-ticaret kararları için stratejik istihbarat."
+  },
+  "hero": {
+    "title": "İstihbarat Merkezi",
+    "subtitle": "Profesyonel PDF raporlarında sunulan veri destekli pazar analizi"
+  },
+  "sections": {
+    "reports": {
+      "title": "İstihbarat Raporları",
+      "subtitle": "Stratejik kararlar için yapılandırılmış araştırma çıktıları"
+    },
+    "framework": {
+      "title": "Araştırma Çerçevesi",
+      "subtitle": "Pazar istihbaratına sistematik yaklaşımımız"
+    },
+    "tools": {
+      "title": "Araçlar ve Veri Kaynakları",
+      "subtitle": "Araştırmamızı destekleyen kurumsal platformlar"
+    },
+    "outputs": {
+      "title": "Ne Alırsınız",
+      "subtitle": "Eyleme geçirilebilir içgörülerle profesyonel çıktılar"
+    }
+  },
+  "cta": {
+    "title": "İstihbarat Odaklı Kararlara Hazır mısınız?",
+    "description": "Verileri eyleme geçirilebilir stratejiye dönüştüren yapılandırılmış araştırma alın.",
+    "primary": "İstihbarat Raporu Talep Et",
+    "secondary": "Örnek Raporu Görüntüle"
+  },
+  "faq": {
+    "title": "İstihbarat Merkezi SSS",
+    "subtitle": "Araştırma ve istihbarat hizmetlerimiz hakkında sorular"
+  }
+}

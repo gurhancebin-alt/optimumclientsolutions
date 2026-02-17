@@ -1,0 +1,26 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Diensten",
+    "about": "Over Ons",
+    "portfolio": "Portfolio",
+    "blog": "Blog",    "intelligence": "Intelligentie Hub",    "research": "Research Hub",
+    "freeAudit": "Gratis Audit"
+  },
+  "footer": {
+    "description": "Het strategische zenuwcentrum waar AI-automatisering en diepgaande marktinformatie samenkomen voor de moderne webshop-ondernemer.",
+    "quickLinks": "Snelle Links",
+    "connect": "Verbind Met Ons",
+    "copyright": "Strategisch Zenuwcentrum - Data-Driven E-commerce"
+  },
+  "cta": {
+    "getStarted": "Aan de Slag",
+    "contactUs": "Neem Contact Op",
+    "learnMore": "Meer Informatie",
+    "getInTouch": "Neem Contact Op",
+    "viewPortfolio": "Bekijk Portfolio",
+    "startGrowthLab": "Start Groei Lab",
+    "requestReport": "Vraag PDF Rapport Aan",
+    "startAudit": "Start de audit"
+  }
+}

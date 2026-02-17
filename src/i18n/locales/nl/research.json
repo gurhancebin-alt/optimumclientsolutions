@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "title": "Research Hub - Optimum Client Solutions",
+    "description": "Strategisch intelligence hub met marktanalyse, SWOT-modellering en supply chain inzichten."
+  },
+  "hero": {
+    "title": "Strategic Intelligence Hub",
+    "subtitle": "Wij leveren geen advies, wij leveren PDF-rapporten vol metadata en marktanalyse."
+  },
+  "tabs": {
+    "market": "Markt",
+    "swot": "SWOT",
+    "supply": "Supply"
+  },
+  "market": {
+    "title": "Fashion Markttrends 2024",
+    "description": "Real-time analyse van de fashion niche. Voor Fhrase.com identificeerden we een groeipotentieel van 45% in duurzame materialen."
+  },
+  "swot": {
+    "title": "Strategische Impact Matrix",
+    "description": "Onze SWOT-modellen tonen aan dat technologische voorsprong (95/100) de grootste differentiator is voor moderne boutiques."
+  },
+  "supply": {
+    "title": "Supply Chain Efficiëntie",
+    "description": "Optimalisatie van de keten voor Fhrase resulteerde in een reductie van 25% in 'out-of-stock' incidenten."
+  },
+  "sourcing": {
+    "title": "Sourcing & 3PL",
+    "description": "Wij screenen leveranciersketens van lokale fabrikanten tot dropship-oplossingen."
+  },
+  "services": {
+    "heading": "Research Diensten",
+    "items": [
+      { "title": "Marktanalyse Rapporten", "description": "Diepgaande analyse van uw doelmarkt met bruikbare inzichten en groeikansen." },
+      { "title": "Concurrentie Intelligence", "description": "Uitgebreide concurrentieanalyse en positioneringsstrategie aanbevelingen." },
+      { "title": "Supply Chain Optimalisatie", "description": "End-to-end supply chain analyse met 3PL en logistieke aanbevelingen." },
+      { "title": "Trendvoorspelling", "description": "AI-aangedreven trendvoorspelling om u voor te blijven op marktverschuivingen." }
+    ]
+  },
+  "cta": {
+    "heading": "Ontvang Uw Rapport Op Maat",
+    "description": "Ontvang een uitgebreide marktanalyse afgestemd op uw niche."
+  }
+}

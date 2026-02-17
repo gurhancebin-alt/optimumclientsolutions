@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Intelligence Hub - Optimum Client Solutions",
+    "description": "Data-gedreven marktanalyse geleverd in professionele PDF-rapporten. Strategische intelligence voor e-commerce beslissingen."
+  },
+  "hero": {
+    "title": "Intelligence Hub",
+    "subtitle": "Data-gedreven marktanalyse geleverd in professionele PDF-rapporten"
+  },
+  "sections": {
+    "reports": {
+      "title": "Intelligence Rapporten",
+      "subtitle": "Gestructureerde onderzoeksrapporten voor strategische beslissingen"
+    },
+    "framework": {
+      "title": "Onderzoekskader",
+      "subtitle": "Onze systematische aanpak voor marktintelligence"
+    },
+    "tools": {
+      "title": "Tools & Databronnen",
+      "subtitle": "Enterprise-grade platforms die ons onderzoek ondersteunen"
+    },
+    "outputs": {
+      "title": "Wat U Ontvangt",
+      "subtitle": "Professionele deliverables met actionable inzichten"
+    }
+  },
+  "cta": {
+    "title": "Klaar voor Intelligence-Gedreven Beslissingen?",
+    "description": "Krijg gestructureerd onderzoek dat data transformeert naar actiebare strategie.",
+    "primary": "Vraag Intelligence Rapport Aan",
+    "secondary": "Bekijk Voorbeeldrapport"
+  },
+  "faq": {
+    "title": "Intelligence Hub FAQ",
+    "subtitle": "Vragen over onze onderzoeks- en intelligencediensten"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "title": "E-commerce Data Analyst & Strategist | Gürhan - Optimum Client Solutions",
+    "description": "Data-driven e-commerce strategy at the intersection of analytics, marketplace intelligence, and operational execution."
+  },
+  "sections": {
+    "story": {
+      "title": "From Implementation to Strategy",
+      "subtitle": "The evolution from tactical execution to data-driven decision-making"
+    },
+    "philosophy": {
+      "title": "How I Approach E-commerce Strategy",
+      "subtitle": "Three core principles that guide every recommendation"
+    },
+    "framework": {
+      "title": "The 5-Phase Research Framework",
+      "subtitle": "A structured approach to product validation and market entry strategy"
+    },
+    "tools": {
+      "title": "Tools & Platforms I Use",
+      "subtitle": "Advanced e-commerce analytics and intelligence platforms for comprehensive research",
+      "note": "All research is conducted with licensed, professional-grade tools — no shortcuts, no assumptions."
+    },
+    "audience": {
+      "title": "Who I Work With",
+      "subtitle": "E-commerce operators at two key inflection points"
+    },
+    "testimonials": {
+      "title": "What Clients Value Most",
+      "subtitle": "Feedback from e-commerce operators who've used the research"
+    },
+    "cta": {
+      "title": "Not Strategy. Not Tactics.",
+      "highlight": "Intelligence.",
+      "description": "If you're looking for a consultant who talks in platitudes, I'm not your guy. If you want someone who can pull market data, validate product ideas, and give you structured research you can actually act on — let's talk.",
+      "primary": "View Intelligence Services",
+      "secondary": "Get In Touch"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Common questions about the research process and deliverables"
+    }
+  }
+}

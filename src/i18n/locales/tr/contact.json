@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "İletişim - Optimum Client Solutions",
+    "description": "İş ihtiyaçlarınızı görüşmek için Optimum Client Solutions ile iletişime geçin."
+  },
+  "hero": {
+    "title": "İletişim",
+    "subtitle": "İşletmenizin başarısına nasıl yardımcı olabileceğimizi konuşalım"
+  },
+  "intro": {
+    "heading": "İletişime Geçin",
+    "description": "Bir sorunuz mu var veya bir projeye başlamaya hazır mısınız? Sizden haber almak isteriz. Aşağıdaki formu doldurun, ekibimiz 24 saat içinde size geri dönecektir."
+  },
+  "form": {
+    "name": "Ad Soyad",
+    "namePlaceholder": "Ahmet Yılmaz",
+    "email": "E-posta Adresi",
+    "emailPlaceholder": "ahmet@sirket.com",
+    "phone": "Telefon Numarası",
+    "phonePlaceholder": "+90 (555) 000-0000",
+    "company": "Şirket Adı",
+    "companyPlaceholder": "Şirketiniz",
+    "serviceCategory": "Hizmet Kategorisi",
+    "categoryPlaceholder": "Bir hizmet kategorisi seçin...",
+    "serviceChild": "Spesifik Hizmet",
+    "childPlaceholder": "Spesifik bir hizmet seçin...",
+    "message": "Mesaj",
+    "messagePlaceholder": "Projeniz veya sorunuz hakkında bize bilgi verin...",
+    "newsletter": "Optimum Client Solutions'tan güncellemeler ve görüşler almak istiyorum",
+    "submit": "Ücretsiz Danışma İste",
+    "sending": "Gönderiliyor...",
+    "required": "Zorunlu alanlar. Gizliliğinize saygı duyuyoruz ve bilgilerinizi asla paylaşmayacağız."
+  },
+  "success": {
+    "heading": "Bizimle iletişime geçtiğiniz için teşekkürler!",
+    "text": "Talebinizi aldık ve size bir onay e-postası gönderdik. Ekibimiz 24 saat içinde size geri dönecektir.",
+    "redirect": "Sonraki adımlar için gelen kutunuzu kontrol edin"
+  },
+  "error": {
+    "heading": "Hata! Bir şeyler ters gitti.",
+    "text": "Lütfen tekrar deneyin veya doğrudan bize ulaşın"
+  },
+  "info": {
+    "heading": "İletişim Bilgileri",
+    "email": "E-posta",
+    "emailAddress": "gurhan.cebin@optimumclientsolutions.com",
+    "responseTime": "Yanıt Süresi",
+    "responseValue": "24 saat içinde",
+    "consultation": "Danışmanlık",
+    "consultationValue": "Ücretsiz ilk danışmanlık mevcut",
+    "whatsapp": "WhatsApp ile Sohbet"
+  },
+  "social": {
+    "heading": "Bizimle Bağlantı Kurun",
+    "description": "Güncellemeler, görüşler ve sektör haberleri için bizi sosyal medyada takip edin."
+  },
+  "faq": {
+    "title": "İletişim SSS",
+    "subtitle": "İletişim kurma ve bizimle çalışma hakkında sorular"
+  }
+}

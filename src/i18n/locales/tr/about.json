@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "title": "E-ticaret Veri Analisti & Stratejisti | Gürhan - Optimum Client Solutions",
+    "description": "Analitik, pazar yeri istihbaratı ve operasyonel uygulama kesişiminde veriye dayalı e-ticaret stratejisi."
+  },
+  "sections": {
+    "story": {
+      "title": "Uygulamadan Stratejiye",
+      "subtitle": "Taktiksel uygulamadan veriye dayalı karar vermeye evrim"
+    },
+    "philosophy": {
+      "title": "E-ticaret Stratejisine Nasıl Yaklaşıyorum",
+      "subtitle": "Her öneriyi yönlendiren üç temel ilke"
+    },
+    "framework": {
+      "title": "5 Aşamalı Araştırma Çerçevesi",
+      "subtitle": "Ürün doğrulama ve pazara giriş stratejisi için yapılandırılmış bir yaklaşım"
+    },
+    "tools": {
+      "title": "Kullandığım Araçlar & Platformlar",
+      "subtitle": "Kapsamlı araştırma için gelişmiş e-ticaret analitik ve istihbarat platformları",
+      "note": "Tüm araştırmalar lisanslı, profesyonel düzeyde araçlarla yapılır — kestirme yol yok, varsayım yok."
+    },
+    "audience": {
+      "title": "Kimlerle Çalışıyorum",
+      "subtitle": "İki kritik dönüm noktasındaki e-ticaret işletmecileri"
+    },
+    "testimonials": {
+      "title": "Müşterilerin En Çok Değer Verdiği",
+      "subtitle": "Araştırmayı kullanan e-ticaret işletmecilerinden geri bildirimler"
+    },
+    "cta": {
+      "title": "Strateji Değil. Taktik Değil.",
+      "highlight": "İstihbarat.",
+      "description": "Klişelerle konuşan bir danışman arıyorsanız, ben sizin adamınız değilim. Pazar verilerini çekebilen, ürün fikirlerini doğrulayabilen ve gerçekten harekete geçebileceğiniz yapılandırılmış araştırma sunabilen birini istiyorsanız — konuşalım.",
+      "primary": "İstihbarat Hizmetlerini Görüntüle",
+      "secondary": "İletişime Geç"
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "subtitle": "Araştırma süreci ve çıktılar hakkında yaygın sorular"
+    }
+  }
+}

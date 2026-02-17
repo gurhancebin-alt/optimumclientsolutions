@@ -1,0 +1,139 @@
+{
+  "badge": "NEXT-GEN E-COMMERCE INTELLIGENCE",
+  "hero": {
+    "line1": "Wij bouwen geen shops.",
+    "line2": "Wij bouwen",
+    "highlight": "winstmachines.",
+    "subtitle": "Het strategische zenuwcentrum waar AI-automatisering en diepgaande marktinformatie samenkomen voor de moderne webshop-ondernemer."
+  },
+  "services": {
+    "heading": "Onze Engine",
+    "description": "Drie pijlers die handmatig werk overbodig maken en groei voorspelbaar.",
+    "viewAll": "Bekijk Alle Diensten",
+    "moreInfo": "Meer Info",
+    "build": {
+      "label": "Website Ontwikkeling",
+      "sub": "High-performance e-commerce platforms",
+      "heading": "Website Ontwikkeling",
+      "description": "High-performance, headless commerce architecturen gebouwd voor schaal en conversie.",
+      "services": {
+        "ecommerce": {
+          "title": "E-commerce Platform Ontwikkeling",
+          "keywords": ["Shopify", "WooCommerce", "Custom"]
+        },
+        "design": {
+          "title": "Design & UX",
+          "keywords": ["Responsive", "Conversie", "Branding"]
+        },
+        "custom": {
+          "title": "Custom Ontwikkeling & Automatisering",
+          "keywords": ["APIs", "Integraties", "Workflows"]
+        },
+        "seo": {
+          "title": "SEO & Performance Optimalisatie",
+          "keywords": ["Snelheid", "SEO", "Analytics"]
+        }
+      }
+    },
+    "automate": {
+      "label": "Multi-Channel Markt Opportuniteit",
+      "sub": "Kanaaloptimalisatie & automatisering",
+      "heading": "Multi-Channel Markt Opportuniteit",
+      "description": "Maximaliseer omzet over alle kanalen met intelligente optimalisatie en automatiseringsstrategieën.",
+      "services": {
+        "marketplace": {
+          "title": "Marketplace Optimalisatie",
+          "keywords": ["Amazon", "eBay", "Walmart"]
+        },
+        "advertising": {
+          "title": "Betaalde Advertentie Optimalisatie",
+          "keywords": ["Google Ads", "Meta", "ROAS"]
+        },
+        "organic": {
+          "title": "Organische Kanaalgroei",
+          "keywords": ["SEO", "Content", "Social"]
+        },
+        "intelligence": {
+          "title": "Kanaal Intelligence",
+          "keywords": ["Analytics", "Rapportage", "Inzichten"]
+        },
+        "expansion": {
+          "title": "Strategische Marktexpansie",
+          "keywords": ["Groei", "Strategie", "Schalen"]
+        },
+        "email": {
+          "title": "Email & SMS Automatisering",
+          "keywords": ["Campagnes", "Flows", "Retentie"]
+        }
+      }
+    },
+    "research": {
+      "label": "Intelligence Lab",
+      "sub": "Data-gedreven inzichten & sourcing",
+      "heading": "Intelligence Lab",
+      "description": "Strategische intelligence en onderzoeksdiensten die data omzetten in uitvoerbare groeimogelijkheden.",
+      "services": {
+        "product": {
+          "title": "Product & Leverancier Intelligence",
+          "keywords": ["Sourcing", "Screening", "Kwaliteit"]
+        },
+        "influencer": {
+          "title": "Influencer Partnership Sourcing",
+          "keywords": ["Outreach", "Screening", "ROI"]
+        },
+        "keyword": {
+          "title": "Keyword & Zoek Intelligence",
+          "keywords": ["Onderzoek", "Trends", "Ranking"]
+        },
+        "reporting": {
+          "title": "Rapportage & Performance Intelligence",
+          "keywords": ["KPIs", "Dashboards", "Inzichten"]
+        },
+        "strategic": {
+          "title": "Strategische Analyse",
+          "keywords": ["Concurrent", "Markt", "Kansen"]
+        }
+      }
+    }
+  },
+  "portfolio": {
+    "heading": "Uitgelicht Werk",
+    "description": "Echte resultaten van echte projecten",
+    "viewAll": "Bekijk Alle Cases",
+    "viewCase": "Bekijk Case Study",
+    "fashionPhrase": {
+      "name": "Fashion Phrase",
+      "website": "fhrase.com",
+      "description": "Online mode boutique",
+      "usp": "EU duurzame sourcing in mode",
+      "industry": "Mode E-commerce",
+      "status": "Actief"
+    },
+    "tgcCompany": {
+      "name": "TGC Company",
+      "website": "tgccompany.com",
+      "description": "Premium lifestyle merk",
+      "usp": "Direct-to-consumer luxe goederen",
+      "industry": "Lifestyle & Retail",
+      "status": "In Uitvoering"
+    },
+    "nextPhaseSoccer": {
+      "name": "Next Phase Soccer",
+      "website": "nextphasesoccer.com",
+      "description": "Professioneel voetbal trainingsplatform",
+      "usp": "Elite mentorschap & prestatie-analyse",
+      "industry": "Sport & Onderwijs",
+      "status": "Voltooid"
+    }
+  },
+  "contact": {
+    "heading": "Klaar voor de volgende stap?",
+    "description": "Ontvang een gratis marktrapportage en AI-audit van uw huidige shop.",
+    "emailPlaceholder": "E-mailadres",
+    "submit": "Vraag PDF Rapport Aan"
+  },
+  "faq": {
+    "title": "Veelgestelde Vragen",
+    "subtitle": "Veelvoorkomende vragen over onze diensten en aanpak"
+  }
+}

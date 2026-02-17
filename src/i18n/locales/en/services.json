@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Our Services - Optimum Client Solutions",
+    "description": "Explore our comprehensive service offerings across website development, marketing, and e-commerce."
+  },
+  "hero": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive digital solutions to transform your business"
+  },
+  "categories": {
+    "webdev": {
+      "title": "Website Development",
+      "description": "High-performance, custom-built websites and web applications that drive results. From headless commerce to full-stack solutions.",
+      "features": ["Shopify & Headless Commerce", "Custom Web Applications", "React & Next.js Development"],
+      "route": "/services/website-development"
+    },
+    "marketing": {
+      "title": "Multi Channel Market Opportunity",
+      "description": "Multi-channel marketing strategies powered by AI and data analytics. Reach your audience where they are.",
+      "features": ["Social Media Marketing", "Email Marketing Automation", "Content Marketing Strategy"],
+      "route": "/services/market-channel-optimization-services"
+    },
+    "ecommerce": {
+      "title": "eCommerce Solutions",
+      "description": "End-to-end e-commerce optimization from store setup to conversion rate optimization and supply chain management.",
+      "features": ["Store Setup & Configuration", "Payment Gateway Integration", "Conversion Rate Optimization"],
+      "route": "/services/ecommerce-solutions"
+    }
+  },
+  "cta": {
+    "heading": "Ready to Transform Your Business?",
+    "description": "Let's discuss how our services can help you achieve your goals.",
+    "explore": "Explore Services",
+    "viewCategory": "View Details",
+    "learnMore": "Learn More"
+  },
+  "serviceDetail": {
+    "features": "Key Features & Benefits",
+    "process": "Our Process",
+    "packages": "Service Packages",
+    "faq": "Frequently Asked Questions",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Common questions about our services",
+    "websiteDevelopment": {
+      "title": "Website Development FAQ",
+      "subtitle": "Questions about our web development services"
+    },
+    "marketOptimization": {
+      "title": "Market & Channel Optimization FAQ",
+      "subtitle": "Questions about multi-channel marketing and optimization"
+    },
+    "ecommerceSolutions": {
+      "title": "E-commerce Solutions FAQ",
+      "subtitle": "Questions about our intelligence and research services"
+    }
+  }
+}

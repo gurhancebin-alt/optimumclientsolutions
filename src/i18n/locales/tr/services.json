@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Hizmetlerimiz - Optimum Client Solutions",
+    "description": "Web sitesi geliştirme, pazarlama ve e-ticaret alanlarında kapsamlı hizmet tekliflerimizi keşfedin."
+  },
+  "hero": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "İşletmenizi dönüştürmek için kapsamlı dijital çözümler"
+  },
+  "categories": {
+    "webdev": {
+      "title": "Web Sitesi Geliştirme",
+      "description": "Sonuç getiren yüksek performanslı, özel yapım web siteleri ve web uygulamaları. Headless ticaretten full-stack çözümlere.",
+      "features": ["Shopify ve Headless Ticaret", "Özel Web Uygulamaları", "React ve Next.js Geliştirme"],
+      "route": "/services/website-development"
+    },
+    "marketing": {
+      "title": "Çok Kanallı Pazar Fırsatı",
+      "description": "AI ve veri analitiği ile desteklenen çok kanallı pazarlama stratejileri. Kitlenize oldukları yerde ulaşın.",
+      "features": ["Sosyal Medya Pazarlama", "E-posta Pazarlama Otomasyonu", "İçerik Pazarlama Stratejisi"],
+      "route": "/services/market-channel-optimization-services"
+    },
+    "ecommerce": {
+      "title": "E-Ticaret Çözümleri",
+      "description": "Mağaza kurulumundan dönüşüm oranı optimizasyonuna ve tedarik zinciri yönetimine kadar uçtan uca e-ticaret optimizasyonu.",
+      "features": ["Mağaza Kurulum ve Yapılandırma", "Ödeme Ağ Geçidi Entegrasyonu", "Dönüşüm Oranı Optimizasyonu"],
+      "route": "/services/ecommerce-solutions"
+    }
+  },
+  "cta": {
+    "heading": "İşletmenizi Dönüştürmeye Hazır mısınız?",
+    "description": "Hizmetlerimizin hedeflerinize nasıl ulaşmanıza yardımcı olabileceğini konuşalım.",
+    "explore": "Hizmetleri Keşfet",
+    "viewCategory": "Detayları Görüntüle",
+    "learnMore": "Daha Fazla Bilgi"
+  },
+  "serviceDetail": {
+    "features": "Temel Özellikler ve Faydalar",
+    "process": "Sürecimiz",
+    "packages": "Hizmet Paketleri",
+    "faq": "Sıkça Sorulan Sorular",
+    "getStarted": "Başlayın",
+    "contactUs": "Bize Ulaşın"
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Hizmetlerimiz hakkında sık sorulan sorular",
+    "websiteDevelopment": {
+      "title": "Web Sitesi Geliştirme SSS",
+      "subtitle": "Web geliştirme hizmetlerimiz hakkında sorular"
+    },
+    "marketOptimization": {
+      "title": "Pazar ve Kanal Optimizasyonu SSS",
+      "subtitle": "Çok kanallı pazarlama ve optimizasyon hakkında sorular"
+    },
+    "ecommerceSolutions": {
+      "title": "E-ticaret Çözümleri SSS",
+      "subtitle": "İstihbarat ve araştırma hizmetlerimiz hakkında sorular"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Blog - Optimum Client Solutions",
+    "description": "Insights on e-commerce strategy, marketplace optimization, and data-driven growth."
+  },
+  "hero": {
+    "title": "E-commerce Insights",
+    "subtitle": "Actionable strategies for marketplace success"
+  },
+  "search": {
+    "placeholder": "Search articles...",
+    "noResults": "No articles found matching your search.",
+    "clearSearch": "Clear search"
+  },
+  "categories": {
+    "all": "All Articles",
+    "heading": "Categories"
+  },
+  "articles": {
+    "readMore": "Read More",
+    "readTime": "min read",
+    "publishedOn": "Published on",
+    "featured": "Featured",
+    "latest": "Latest Articles",
+    "related": "Related Articles",
+    "backToBlog": "Back to Blog",
+    "tableOfContents": "Table of Contents",
+    "nextArticle": "Next Article",
+    "tags": "Tags"
+  },
+  "sidebar": {
+    "trending": "Trending",
+    "recentPosts": "Recent Posts",
+    "popularTags": "Popular Tags"
+  },
+  "cta": {
+    "heading": "Stay Updated",
+    "description": "Get the latest e-commerce insights delivered to your inbox.",
+    "subscribe": "Subscribe"
+  },
+  "faq": {
+    "title": "Blog FAQ",
+    "subtitle": "Questions about our content and resources"
+  }
+}

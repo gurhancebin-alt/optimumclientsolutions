@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Intelligence Hub - Optimum Client Solutions",
+    "description": "Data-backed market analysis delivered in professional PDF reports. Strategic intelligence for e-commerce decisions."
+  },
+  "hero": {
+    "title": "Intelligence Hub",
+    "subtitle": "Data-backed market analysis delivered in professional PDF reports"
+  },
+  "sections": {
+    "reports": {
+      "title": "Intelligence Reports",
+      "subtitle": "Structured research deliverables for strategic decisions"
+    },
+    "framework": {
+      "title": "Research Framework",
+      "subtitle": "Our systematic approach to market intelligence"
+    },
+    "tools": {
+      "title": "Tools & Data Sources",
+      "subtitle": "Enterprise-grade platforms powering our research"
+    },
+    "outputs": {
+      "title": "What You Receive",
+      "subtitle": "Professional deliverables with actionable insights"
+    }
+  },
+  "cta": {
+    "title": "Ready for Intelligence-Driven Decisions?",
+    "description": "Get structured research that transforms data into actionable strategy.",
+    "primary": "Request Intelligence Report",
+    "secondary": "View Sample Report"
+  },
+  "faq": {
+    "title": "Intelligence Hub FAQ",
+    "subtitle": "Questions about our research and intelligence services"
+  }
+}

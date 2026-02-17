@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "title": "Research Hub - Optimum Client Solutions",
+    "description": "Strategic intelligence hub delivering market analysis, SWOT modeling, and supply chain insights."
+  },
+  "hero": {
+    "title": "Strategic Intelligence Hub",
+    "subtitle": "We don't deliver advice, we deliver PDF reports full of metadata and market analysis."
+  },
+  "tabs": {
+    "market": "Market",
+    "swot": "SWOT",
+    "supply": "Supply"
+  },
+  "market": {
+    "title": "Fashion Market Trends 2024",
+    "description": "Real-time analysis of the fashion niche. For Fhrase.com we identified a 45% growth potential in sustainable materials."
+  },
+  "swot": {
+    "title": "Strategic Impact Matrix",
+    "description": "Our SWOT models show that technological advantage (95/100) is the biggest differentiator for modern boutiques."
+  },
+  "supply": {
+    "title": "Supply Chain Efficiency",
+    "description": "Chain optimization for Fhrase resulted in a 25% reduction in 'out-of-stock' incidents."
+  },
+  "sourcing": {
+    "title": "Sourcing & 3PL",
+    "description": "We screen supplier chains from local manufacturers to dropship solutions."
+  },
+  "services": {
+    "heading": "Research Services",
+    "items": [
+      { "title": "Market Analysis Reports", "description": "Deep-dive analysis of your target market with actionable insights and growth opportunities." },
+      { "title": "Competitive Intelligence", "description": "Comprehensive competitor analysis and positioning strategy recommendations." },
+      { "title": "Supply Chain Optimization", "description": "End-to-end supply chain analysis with 3PL and logistics recommendations." },
+      { "title": "Trend Forecasting", "description": "AI-powered trend prediction to keep you ahead of market shifts." }
+    ]
+  },
+  "cta": {
+    "heading": "Get Your Custom Report",
+    "description": "Receive a comprehensive market analysis tailored to your niche."
+  }
+}
