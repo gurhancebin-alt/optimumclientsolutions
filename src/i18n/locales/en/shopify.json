@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "Shopify Development & Optimization | Optimum Client Solutions",
+    "description": "Expert Shopify consultancy focusing on low-code solutions, SEO, and global scaling for SMEs."
+  },
+  "hero": {
+    "badge": "Shopify Specialist",
+    "title": "Tailor-made Shopify Architectures for Scaling Brands.",
+    "subtitle": "We bridge the gap between complex Shopify development and operational simplicity. By leveraging the Shopify dev environment with low-code efficiency, we deliver premium, SEO-optimized stores without the technical debt.",
+    "cta": {
+      "primary": "Book a Shopify Audit",
+      "secondary": "View Capabilities"
+    }
+  },
+  "capabilities": {
+    "heading": "Core Capabilities",
+    "subtitle": "Everything your store needs to grow.",
+    "development": {
+      "title": "Shopify Development",
+      "description": "Expertise in the Shopify Dev Environment (Liquid, CLI) with a focus on low-code efficiency and high-performance customization."
+    },
+    "automations": {
+      "title": "AI & Automations",
+      "description": "Integrating the Shopify ecosystem with external APIs to remove manual friction from your daily operations."
+    },
+    "growth": {
+      "title": "SEO & GEO Strategy",
+      "description": "Leveraging Shopify Markets and technical SEO to scale your brand across borders and search engines."
+    }
+  },
+  "technicalStats": {
+    "title": "Technical Excellence",
+    "subtitle": "Built on Shopify best practices",
+    "coreWebVitals": {
+      "label": "Core Web Vitals",
+      "value": "98/100",
+      "description": "Target Performance Score"
+    },
+    "pageSpeed": {
+      "label": "Page Speed",
+      "value": "<2s",
+      "description": "Average Load Time"
+    },
+    "seoScore": {
+      "label": "SEO Score",
+      "value": "95+",
+      "description": "Technical Optimization"
+    }
+  },
+  "conversionCard": {
+    "title": "Conversion Driven",
+    "description": "Every element is optimized for performance, user experience, and measurable business results. No bloat, just intelligent design."
+  },
+  "seoSection": {
+    "title": "The 5-Step Technical SEO Strategy",
+    "subtitle": "Following the highest standards for indexability and discoverability. Your Shopify store will be built for humans and understood by machines.",
+    "floatingBadge": {
+      "title": "Global Ready",
+      "quote": "GEO-targeting increased client reach by 45% within 3 months."
+    },
+    "centerCard": {
+      "title": "SEO-First",
+      "description": "Every page engineered for maximum search visibility and performance"
+    }
+  },
+  "benefits": {
+    "heading": "Why Choose Our Shopify Expertise",
+    "subtitle": "Combining technical excellence with business understanding"
+  },
+  "faq": {
+    "title": "Shopify Development FAQ",
+    "subtitle": "Common questions about our Shopify services"
+  },
+  "finalCTA": {
+    "title": "Ready to Optimize Your Shopify Architecture?",
+    "subtitle": "Stop fighting with your theme. Let's build a technical foundation that supports your growth.",
+    "button": "Schedule My Strategy Call"
+  }
+}

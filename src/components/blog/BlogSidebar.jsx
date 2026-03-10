@@ -60,22 +60,6 @@ export default function BlogSidebar({ activeCategory, onCategoryChange, popularA
         </div>
       </div>
 
-      {/* Intelligence Hub CTA */}
-      <div className="bg-gradient-to-br from-indigo-500/10 to-cyan-500/10 border border-cyan-500/30 rounded-xl p-6">
-        <div className="flex items-center space-x-2 mb-3">
-          <FileText size={18} className="text-cyan-400" />
-          <h3 className="text-lg font-bold text-white">Need Custom Research?</h3>
-        </div>
-        <p className="text-sm text-slate-300 mb-4">
-          Get professional market intelligence reports with structured data analysis and actionable insights.
-        </p>
-        <Link
-          to="/intelligence"
-          className="block w-full px-4 py-2 bg-cyan-600 text-white text-center font-semibold rounded-lg hover:bg-cyan-500 transition-colors"
-        >
-          Explore Intelligence Hub
-        </Link>
-      </div>
 
       {/* Lead Magnet */}
       <div className="glass border-2 border-indigo-500/30 rounded-xl p-6">

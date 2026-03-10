@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet-async';
-import { Mail, Clock, MessageSquare, CheckCircle2, AlertCircle, ExternalLink, MessageCircle, Loader2 } from 'lucide-react';
+import { Clock, MessageSquare, CheckCircle2, AlertCircle, ExternalLink, MessageCircle, Loader2, Shield } from 'lucide-react';
 import emailjs from '@emailjs/browser';
+import { Turnstile } from '@marsidev/react-turnstile';
 import HeroSection from '../components/ui/HeroSection';
 import GlassCard from '../components/ui/GlassCard';
 import AnimatedSection from '../components/ui/AnimatedSection';
@@ -21,9 +22,14 @@ export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [turnstileToken, setTurnstileToken] = useState(null);
+  const [turnstileError, setTurnstileError] = useState(false);
   const [formData, setFormData] = useState({
     name: '', email: '', company: '', serviceCategory: '', serviceChild: '', message: '', newsletter: false,
   });
+
+  // Check if Turnstile is configured
+  const turnstileEnabled = !!import.meta.env.VITE_TURNSTILE_SITE_KEY;
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -34,8 +40,24 @@ export default function Contact() {
     }
   };
 
+  const handleTurnstileSuccess = (token) => {
+    setTurnstileToken(token);
+    setTurnstileError(false);
+  };
+
+  const handleTurnstileError = () => {
+    setTurnstileError(true);
+    setTurnstileToken(null);
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    
+    // Validate Turnstile token only if enabled
+    if (turnstileEnabled && !turnstileToken) {
+      setTurnstileError(true);
+      return;
+    }
     
     if (!formData.serviceCategory) {
       setError(true);
@@ -71,6 +93,7 @@ export default function Contact() {
       service_category: categoryName,
       user_message: formData.message,
       submission_date: new Date().toLocaleString(),
+      ...(turnstileEnabled && { turnstile_verified: '✓ Bot verification passed' }),
     };
 
     // Template data for user email
@@ -189,11 +212,40 @@ export default function Contact() {
                       <label className="block text-sm font-medium text-slate-300 mb-2">{t('form.message')} *</label>
                       <textarea name="message" required rows="6" value={formData.message} onChange={handleChange} placeholder={t('form.messagePlaceholder')} className={inputClasses} />
                     </div>
+
+                    {/* Cloudflare Turnstile Bot Verification */}
+                    {turnstileEnabled && (
+                      <div>
+                        <label className="text-sm font-medium text-slate-300 mb-3 flex items-center gap-2">
+                          <Shield size={16} className="text-cyan-400" />
+                          Bot Verification *
+                        </label>
+                        <div className="flex justify-center md:justify-start">
+                          <Turnstile
+                            siteKey={import.meta.env.VITE_TURNSTILE_SITE_KEY}
+                            onSuccess={handleTurnstileSuccess}
+                            onError={handleTurnstileError}
+                            onExpire={() => setTurnstileToken(null)}
+                            options={{
+                              theme: 'dark',
+                              size: 'normal',
+                            }}
+                          />
+                        </div>
+                        {turnstileError && (
+                          <p className="text-red-400 text-sm mt-2 flex items-center gap-1">
+                            <AlertCircle size={14} />
+                            Please complete the bot verification
+                          </p>
+                        )}
+                      </div>
+                    )}
+
                     <label className="flex items-center space-x-3 cursor-pointer">
                       <input type="checkbox" name="newsletter" checked={formData.newsletter} onChange={handleChange} className="w-4 h-4 rounded border-slate-700 bg-slate-900 text-cyan-500 focus:ring-cyan-500" />
                       <span className="text-sm text-slate-400">{t('form.newsletter')}</span>
                     </label>
-                    <button type="submit" disabled={loading} className="w-full py-4 bg-cyan-500 text-white font-bold rounded-xl hover:bg-cyan-400 transition-all shadow-lg shadow-cyan-500/20 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2">
+                    <button type="submit" disabled={loading || (turnstileEnabled && !turnstileToken)} className="w-full py-4 bg-cyan-500 text-white font-bold rounded-xl hover:bg-cyan-400 transition-all shadow-lg shadow-cyan-500/20 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2">
                       {loading ? (
                         <>
                           <Loader2 size={20} className="animate-spin" />
@@ -214,13 +266,6 @@ export default function Contact() {
                 <GlassCard>
                   <h3 className="text-lg font-bold text-white mb-6">{t('info.heading')}</h3>
                   <div className="space-y-6">
-                    <div className="flex items-start space-x-4">
-                      <Mail size={20} className="text-cyan-400 mt-1 flex-shrink-0" />
-                      <div>
-                        <h4 className="text-white font-medium">{t('info.email')}</h4>
-                        <a href={`mailto:${CONTACT_EMAIL}`} className="text-sm text-cyan-400 hover:text-cyan-300">{CONTACT_EMAIL}</a>
-                      </div>
-                    </div>
                     <div className="flex items-start space-x-4">
                       <Clock size={20} className="text-cyan-400 mt-1 flex-shrink-0" />
                       <div>

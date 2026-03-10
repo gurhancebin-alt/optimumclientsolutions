@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "WooCommerce Development & Optimization | Optimum Client Solutions",
+    "description": "Expert WooCommerce consultancy for custom e-commerce solutions. WordPress development, performance optimization, security hardening, and enterprise integrations."
+  },
+  "hero": {
+    "badge": "WooCommerce Specialist",
+    "title": "Custom WooCommerce Solutions Built for Scale.",
+    "subtitle": "We build high-performance WooCommerce stores that combine unlimited flexibility with enterprise-grade security and scalability. From startup to enterprise, we deliver cost-effective e-commerce without compromise.",
+    "cta": {
+      "primary": "Request Store Audit",
+      "secondary": "View Capabilities"
+    }
+  },
+  "capabilities": {
+    "heading": "Core Capabilities",
+    "subtitle": "Complete e-commerce control.",
+    "development": {
+      "title": "WooCommerce Development",
+      "description": "Expert WordPress & WooCommerce development with focus on performance, scalability, and custom functionality."
+    },
+    "optimization": {
+      "title": "Performance & Security",
+      "description": "Optimizing WooCommerce stores for speed, security, and reliability with enterprise-grade solutions."
+    },
+    "integrations": {
+      "title": "Integrations & Automation",
+      "description": "Connecting WooCommerce with external systems to streamline operations and enhance customer experience."
+    }
+  },
+  "stats": {
+    "title": "Performance Metrics",
+    "subtitle": "Enterprise-grade optimization",
+    "loadTime": {
+      "label": "Load Time",
+      "value": "<2.5s",
+      "description": "Optimized Performance Target"
+    },
+    "uptime": {
+      "label": "Uptime",
+      "value": "99.9%",
+      "description": "High Availability Standard"
+    },
+    "security": {
+      "label": "Security Score",
+      "value": "A+",
+      "description": "Enterprise-Grade Protection"
+    }
+  },
+  "useCases": {
+    "heading": "Built for Your Business Model",
+    "subtitle": "WooCommerce adapts to any e-commerce scenario"
+  },
+  "techStack": {
+    "heading": "Technical Stack",
+    "subtitle": "Modern tools and technologies for optimal performance"
+  },
+  "benefits": {
+    "heading": "Why Choose WooCommerce",
+    "subtitle": "The benefits of open-source e-commerce"
+  },
+  "faq": {
+    "heading": "WooCommerce Development FAQ",
+    "subtitle": "Common questions about our WooCommerce services"
+  },
+  "cta": {
+    "heading": "Ready to Build Your WooCommerce Store?",
+    "subtitle": "Get complete control over your e-commerce without platform limitations.",
+    "button": "Start Your Project"
+  }
+}

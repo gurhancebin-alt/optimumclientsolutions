@@ -6,36 +6,60 @@
 // ============================================
 export const homeFAQ = [
   {
-    question: "What services does Optimum Client Solutions offer?",
-    answer: "We specialize in three core areas: Website Development (e-commerce platform building, design, custom development), Market & Channel Optimization (marketplace SEO, paid advertising, organic growth), and E-commerce Solutions (product research, competitive intelligence, strategic analysis). Our services are designed for e-commerce entrepreneurs who want data-driven results."
+    question: "How long does it take to implement new tools?",
+    answer: "Implementation timelines vary based on complexity. Simple automation workflows can be deployed in 1-2 weeks. More comprehensive AI systems typically take 2-4 weeks. We prioritize delivering tangible results quickly - you'll see measurable improvements within the first month."
   },
   {
-    question: "Who is your ideal client?",
-    answer: "We work best with two types of clients: (1) Entrepreneurs launching their first e-commerce business who need professional setup and market validation, and (2) Established sellers looking to scale through data-driven optimization, multi-channel expansion, and strategic intelligence. We don't do generic consulting — we deliver actionable research and implementation."
+    question: "What if my team struggles to use the new tools?",
+    answer: "We provide comprehensive training and documentation with every implementation. You receive a detailed playbook, guided walkthroughs, and ongoing support to ensure your team is confident using the new systems. We don't just build and leave - we ensure successful adoption."
   },
   {
-    question: "What makes your approach different from other agencies?",
-    answer: "We don't sell courses, coaching, or motivational content. We deliver structured deliverables — working stores, optimization implementations, and PDF intelligence reports backed by real data. Every recommendation comes with keyword volumes, competitive metrics, and margin calculations. It's execution and research, not advice."
+    question: "Can I keep using my existing tools and systems?",
+    answer: "Absolutely. We specialize in connecting and automating your current tech stack. Rather than forcing you to switch platforms, we integrate with what you already use - whether that's your CRM, email system, project management tools, or custom software."
   },
   {
-    question: "What platforms do you work with?",
-    answer: "We work across all major e-commerce platforms including Shopify, WooCommerce, Magento, BigCommerce, and Wix for store development. For marketplace optimization, we cover Amazon, eBay, Etsy, Bol.com, and Walmart. Our strategies are platform-agnostic but implementation is platform-specific."
+    question: "What types of processes can you automate?",
+    answer: "We automate repetitive business processes including: lead generation and qualification, customer support responses, data entry and reporting, email campaigns, CRM updates, research and content creation, and much more. If it's manual and repetitive, we can likely automate it."
   },
   {
-    question: "How do you price your services?",
-    answer: "Pricing depends on scope and complexity. Website development projects are quoted per-project based on requirements. Intelligence reports are fixed-price based on research depth. Channel optimization can be project-based or monthly retainer. We provide detailed quotes after an initial consultation to understand your specific needs."
+    question: "What about GDPR and data protection?",
+    answer: "Data security and compliance are built into every solution we deliver. We ensure all automations meet GDPR requirements and industry standards. Your data stays within your control, and we implement proper encryption, access controls, and audit trails."
   },
   {
-    question: "What's your typical turnaround time?",
-    answer: "Timelines vary by service type. Basic store setups take 2-4 weeks. Custom development projects run 4-8 weeks. Intelligence reports are delivered in 3-7 business days depending on depth. We prioritize quality over speed — you're paying for thorough work, not rushed deliverables."
+    question: "How does working with you typically look?",
+    answer: "We follow a 3-step process: (1) Strategy Session - we map your workflows and identify automation opportunities, (2) Build & Implement - we design and deploy your custom systems, (3) Launch & Scale - you receive training and documentation to operate independently. Most clients see ROI within 60-90 days."
   },
   {
-    question: "Do you offer ongoing support after project completion?",
-    answer: "Yes. For website development, we offer maintenance packages for updates, security, and performance monitoring. For optimization services, we offer monthly retainers for continuous improvement. Most clients start with a one-time project to test the fit before committing to ongoing work."
+    question: "Which tools do you use for automation?",
+    answer: "We're platform-agnostic and use whatever fits your needs best. Common tools include Make.com, Zapier, n8n for automation, OpenAI and Anthropic for AI capabilities, and various APIs to connect your existing systems. We choose based on your requirements, not vendor relationships."
   },
   {
-    question: "How do I get started?",
-    answer: "The best way to start is through our contact form or by scheduling a consultation call. We'll discuss your goals, assess your current situation, and recommend the right service package. There's no commitment required for the initial conversation."
+    question: "Who are your services best suited for?",
+    answer: "We work with fast-moving B2B businesses, agencies, and SMEs who are experiencing growing pains from manual processes. Our ideal clients recognize that time spent on repetitive tasks is time not spent on growth. If you're spending 10+ hours per week on manual work, you're a good fit."
+  },
+  {
+    question: "Is automation really worth the investment?",
+    answer: "Our clients typically see 50-70% reduction in operational costs and save 20-30 hours per week per team member. The average ROI is 300-500% within the first year. You're not paying for automation - you're paying for your team's time back and the ability to scale without additional headcount."
+  },
+  {
+    question: "Do I need any technical knowledge?",
+    answer: "Not at all. We handle all the technical implementation. You just need to understand your business processes and be able to communicate your pain points. We translate business problems into technical solutions - no coding or technical expertise required from your team."
+  },
+  {
+    question: "Do you work with all businesses?",
+    answer: "We focus on B2B companies, agencies, and service businesses where automation delivers the highest impact. We typically don't work with pure e-commerce stores or businesses under 5 employees, as they may not have enough process complexity to justify our investment."
+  },
+  {
+    question: "How secure is my data?",
+    answer: "We implement enterprise-grade security practices including encryption at rest and in transit, role-based access controls, regular security audits, and compliance with GDPR and industry standards. We can also work within your existing security framework and sign NDAs as needed."
+  },
+  {
+    question: "Can you work with our in-house tech team?",
+    answer: "Yes! Many clients have internal IT teams and we collaborate closely with them. We document everything thoroughly, follow your tech stack standards, and can provide knowledge transfer so your team can maintain and extend the systems we build."
+  },
+  {
+    question: "Do you offer ongoing maintenance?",
+    answer: "Yes. We offer optional maintenance packages for monitoring, updates, and optimization. However, we build systems that are designed to run autonomously. Many clients operate independently after launch, only reaching out when they want to expand or optimize further."
   }
 ];
 
@@ -156,74 +180,6 @@ export const ecommerceSolutionsFAQ = [
   {
     question: "What format are intelligence deliverables in?",
     answer: "All intelligence reports are delivered as professionally formatted PDF documents. Reports include executive summaries, detailed analysis sections, data visualizations, methodology notes, and actionable recommendations. Raw data can be provided upon request."
-  }
-];
-
-// ============================================
-// PORTFOLIO PAGE FAQs
-// ============================================
-export const portfolioFAQ = [
-  {
-    question: "Are these real client projects?",
-    answer: "Yes. All portfolio cases represent actual client work. We include projects at various stages — completed, active, and in development — to show the breadth of our capabilities. Some details may be anonymized to protect client confidentiality."
-  },
-  {
-    question: "Can I see results and metrics from these projects?",
-    answer: "Where client permission allows, we include performance metrics such as traffic growth, conversion improvements, and revenue impact. Some clients prefer to keep metrics confidential. We're happy to discuss specific results during a consultation."
-  },
-  {
-    question: "Do you work with businesses in my industry?",
-    answer: "Our e-commerce expertise applies across industries: fashion, health & beauty, electronics, home goods, B2B products, and more. The principles of keyword research, competitive analysis, and conversion optimization are consistent; we adapt tactics to your specific market."
-  },
-  {
-    question: "How long do typical projects take to complete?",
-    answer: "Project timelines vary significantly. Simple store setups: 2-4 weeks. Custom development: 4-8 weeks. Full brand launches with research and multi-channel setup: 8-12 weeks. We provide detailed timelines during project scoping."
-  },
-  {
-    question: "Can you handle projects of my scale?",
-    answer: "We work with businesses from startup phase through established multi-million dollar operations. Our service packages scale accordingly — from foundational setups for new businesses to enterprise integrations for growing brands."
-  },
-  {
-    question: "What if I want something different from these case studies?",
-    answer: "Portfolio cases show representative work, not limitations. We customize every project to client needs. If you have unique requirements, let's discuss them — we likely have relevant experience even if it's not publicly showcased."
-  }
-];
-
-// ============================================
-// INTELLIGENCE PAGE FAQs
-// ============================================
-export const intelligenceFAQ = [
-  {
-    question: "What is an intelligence report?",
-    answer: "An intelligence report is a comprehensive research document that provides data-driven insights for business decisions. Unlike general advice, our reports include specific metrics, competitive data, market analysis, and actionable recommendations — all backed by professional research tools."
-  },
-  {
-    question: "What data sources power your intelligence reports?",
-    answer: "We use enterprise-grade tools: Ahrefs and SEMrush for SEO/keyword data, Helium 10 and Jungle Scout for marketplace analytics, Google Trends for demand validation, SimilarWeb for competitive traffic analysis, and proprietary data aggregation methods."
-  },
-  {
-    question: "How is this different from hiring an analyst?",
-    answer: "Our reports provide analyst-level research without the overhead of full-time hire. You get structured deliverables with clear methodology, not ongoing payroll. It's project-based intelligence when you need it, at a fraction of employee cost."
-  },
-  {
-    question: "What types of reports do you offer?",
-    answer: "Core report types include: Market Intelligence (demand, competition, entry feasibility), Keyword & Search Intelligence (SEO strategy, content gaps), Competitive Landscape (positioning, SWOT), Product & Supplier Intelligence (sourcing, margins), and Custom Research for specific questions."
-  },
-  {
-    question: "How long does it take to receive a report?",
-    answer: "Standard reports take 3-5 business days. Deep-dive comprehensive reports take 5-7 days. Rush delivery (24-48 hours) is available for urgent needs at premium pricing. Timelines are confirmed before project start."
-  },
-  {
-    question: "Can I request custom research beyond standard reports?",
-    answer: "Absolutely. We regularly handle custom research requests: specific competitor deep-dives, niche feasibility studies, regional market entry analysis, pricing strategy validation, and more. Contact us with your question and we'll scope it."
-  },
-  {
-    question: "What happens after I receive a report?",
-    answer: "Reports include clear next steps and recommendations. Implementation is up to you, though we can handle execution through our service offerings. Follow-up consultations to discuss findings are included with comprehensive reports."
-  },
-  {
-    question: "Do you offer ongoing intelligence services?",
-    answer: "Yes. Monthly intelligence retainers include continuous market monitoring, competitive tracking, trend alerts, and quarterly strategy reports. This is ideal for businesses that need ongoing data-driven decision support."
   }
 ];
 
@@ -531,8 +487,6 @@ export function getFAQByPage(pageKey) {
     'website-development': websiteDevelopmentFAQ,
     'market-channel-optimization-services': marketOptimizationFAQ,
     'ecommerce-solutions': ecommerceSolutionsFAQ,
-    'portfolio': portfolioFAQ,
-    'intelligence': intelligenceFAQ,
     'blog': blogFAQ,
     'contact': contactFAQ,
     // Individual services

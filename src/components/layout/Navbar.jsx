@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Menu, X } from 'lucide-react';
-import LanguageToggle from './LanguageToggle';
 import { navItems } from '../../data/navigation';
 
 export default function Navbar() {
@@ -36,7 +35,6 @@ export default function Navbar() {
               {t(item.labelKey)}
             </Link>
           ))}
-          <LanguageToggle />
           <Link
             to="/contact"
             className="bg-white text-slate-950 px-5 py-2.5 rounded-full hover:bg-cyan-400 transition-all font-bold"
@@ -68,9 +66,6 @@ export default function Navbar() {
               {t(item.labelKey)}
             </Link>
           ))}
-          <div className="flex items-center space-x-4 pt-2">
-            <LanguageToggle />
-          </div>
           <Link
             to="/contact"
             onClick={() => setIsOpen(false)}

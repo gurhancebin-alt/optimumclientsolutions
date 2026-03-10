@@ -447,15 +447,8 @@ export default function About() {
                 {/* CTAs */}
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Link
-                    to="/intelligence"
-                    className="inline-flex items-center justify-center space-x-2 px-8 py-4 bg-cyan-600 text-white rounded-xl font-semibold hover:bg-cyan-500 transition-all shadow-lg shadow-cyan-500/20"
-                  >
-                    <span>{t('sections.cta.primary')}</span>
-                    <ArrowRight size={18} />
-                  </Link>
-                  <Link
                     to="/contact"
-                    className="inline-flex items-center justify-center space-x-2 px-8 py-4 glass text-slate-200 hover:bg-white/10 border border-white/20 rounded-xl font-semibold transition-all"
+                    className="inline-flex items-center justify-center space-x-2 px-8 py-4 bg-cyan-600 text-white rounded-xl font-semibold hover:bg-cyan-500 transition-all shadow-lg shadow-cyan-500/20"
                   >
                     <span>{t('sections.cta.secondary')}</span>
                     <ArrowRight size={18} />

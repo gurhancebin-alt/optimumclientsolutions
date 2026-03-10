@@ -49,18 +49,19 @@ export default function ServiceCategory() {
   const breadcrumbs = [
     { label: t('nav.home', { ns: 'common' }), to: '/' },
     { label: t('hero.title'), to: '/services' },
-    { label: t(`categories.${key}.title`) },
+    { label: categoryData.name },
   ];
 
   return (
     <>
       <Helmet>
-        <title>{t(`categories.${key}.title`)} - Optimum Client Solutions</title>
+        <title>{categoryData.meta?.title || categoryData.name + ' - Optimum Client Solutions'}</title>
+        <meta name="description" content={categoryData.meta?.description || t(`categories.${key}.description`)} />
       </Helmet>
 
       <Breadcrumb items={breadcrumbs} />
       <HeroSection
-        title={t(`categories.${key}.title`)}
+        title={categoryData.name}
         subtitle={t(`categories.${key}.description`)}
       />
 
@@ -75,7 +76,7 @@ export default function ServiceCategory() {
                   <ServiceCard
                     icon={Icon}
                     title={serviceTitle}
-                    description={`Professional ${serviceTitle.toLowerCase()} services tailored to your business needs.`}
+                    description={service.description || `Professional ${serviceTitle.toLowerCase()} services tailored to your business needs.`}
                     features={service.features.slice(0, 3)}
                     link={`/services/${category}/${service.slug}`}
                   />
@@ -96,8 +97,8 @@ export default function ServiceCategory() {
 
       <CTASection
         headingKey="cta.heading"
-        descriptionKey="cta.description"
-        buttonKey="cta.getInTouch"
+        descriptionKey="Contact us today to discuss how we can help you achieve your business goals with our expert services."
+        buttonKey="Get In Touch"
         ns="services"
       />
     </>

@@ -34,14 +34,15 @@ export default function ServiceItem() {
   const breadcrumbs = [
     { label: t('nav.home', { ns: 'common' }), to: '/' },
     { label: t('hero.title'), to: '/services' },
-    { label: t(`categories.${key}.title`), to: `/services/${category}` },
+    { label: categoryData.name, to: `/services/${category}` },
     { label: serviceTitle },
   ];
 
   return (
     <>
       <Helmet>
-        <title>{serviceTitle} - Optimum Client Solutions</title>
+        <title>{serviceData.title || `${serviceTitle} - Optimum Client Solutions`}</title>
+        <meta name="description" content={serviceData.metaDescription || serviceData.description} />
       </Helmet>
 
       <Breadcrumb items={breadcrumbs} />
@@ -74,7 +75,12 @@ export default function ServiceItem() {
               <AnimatedSection key={index} delay={index * 100}>
                 <GlassCard hover className="h-full">
                   <CheckCircle2 size={24} className="text-cyan-400 mb-3" />
-                  <h4 className="text-white font-bold mb-2">{feature}</h4>
+                  <h4 className="text-white font-bold mb-2">
+                    {typeof feature === 'object' ? feature.title : feature}
+                  </h4>
+                  {typeof feature === 'object' && feature.description && (
+                    <p className="text-slate-400 text-sm">{feature.description}</p>
+                  )}
                 </GlassCard>
               </AnimatedSection>
             ))}

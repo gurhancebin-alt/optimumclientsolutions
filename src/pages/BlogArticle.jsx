@@ -176,26 +176,6 @@ export default function BlogArticle() {
                 <section className="mt-12 pt-8 border-t-2 border-slate-800/50">
                   <h2 className="text-2xl font-bold text-white mb-6">Next Steps</h2>
                   <div className="grid md:grid-cols-2 gap-6">
-                    {/* Intelligence Hub CTA */}
-                    {article.relatedIntelligence && (
-                      <Link
-                        to="/intelligence"
-                        className="group p-6 bg-gradient-to-br from-indigo-500/10 to-cyan-500/10 border border-cyan-500/30 rounded-xl hover:shadow-lg hover:shadow-cyan-500/20 transition-all"
-                      >
-                        <div className="flex items-center space-x-3 mb-3">
-                          <FileText size={24} className="text-cyan-400" />
-                          <h3 className="text-lg font-bold text-white">Custom Intelligence Report</h3>
-                        </div>
-                        <p className="text-sm text-slate-300 mb-4">
-                          Get a professional market analysis tailored to your specific product or niche.
-                        </p>
-                        <div className="flex items-center space-x-2 text-cyan-400 font-semibold">
-                          <span>Request Report</span>
-                          <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-                        </div>
-                      </Link>
-                    )}
-
                     {/* Services CTA */}
                     {article.relatedServices && article.relatedServices.length > 0 && (
                       <Link
@@ -265,20 +245,6 @@ export default function BlogArticle() {
                       </div>
                     </div>
                   )}
-
-                  {/* Intelligence Hub CTA */}
-                  <div className="p-6 bg-gradient-to-br from-indigo-500/10 to-cyan-500/10 border border-cyan-500/30 rounded-xl">
-                    <h3 className="text-lg font-bold text-white mb-3">Need Expert Analysis?</h3>
-                    <p className="text-sm text-slate-300 mb-4">
-                      Get custom market intelligence reports with structured data analysis.
-                    </p>
-                    <Link
-                      to="/intelligence"
-                      className="block w-full px-4 py-2 bg-cyan-600 text-white text-center font-semibold rounded-lg hover:bg-cyan-500 transition-colors text-sm"
-                    >
-                      View Intelligence Hub
-                    </Link>
-                  </div>
                 </div>
               </aside>
             </div>

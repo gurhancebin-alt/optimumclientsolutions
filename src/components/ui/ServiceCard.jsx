@@ -13,9 +13,9 @@ export default function ServiceCard({ icon: Icon, title, description, features =
       {features.length > 0 && (
         <ul className="space-y-2 mb-6">
           {features.map((feature, i) => (
-            <li key={i} className="flex items-center space-x-2 text-sm text-slate-300">
-              <CheckCircle2 size={14} className="text-cyan-400 flex-shrink-0" />
-              <span>{feature}</span>
+            <li key={i} className="flex items-start space-x-2 text-sm text-slate-300">
+              <CheckCircle2 size={14} className="text-cyan-400 flex-shrink-0 mt-0.5" />
+              <span>{typeof feature === 'object' ? feature.title : feature}</span>
             </li>
           ))}
         </ul>

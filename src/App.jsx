@@ -7,12 +7,13 @@ import About from './pages/About';
 import Services from './pages/Services';
 import ServiceCategory from './pages/ServiceCategory';
 import ServiceItem from './pages/ServiceItem';
-import Portfolio from './pages/Portfolio';
+import Shopify from './pages/Shopify';
+import WooCommerce from './pages/WooCommerce';
 import Contact from './pages/Contact';
 import Research from './pages/Research';
-import Intelligence from './pages/Intelligence';
 import Blog from './pages/Blog';
 import BlogArticle from './pages/BlogArticle';
+import LegalPage from './pages/LegalPage';
 import NotFound from './pages/NotFound';
 
 function App() {
@@ -27,13 +28,14 @@ function App() {
               <Route path="services" element={<Services />} />
               <Route path="services/:category" element={<ServiceCategory />} />
               <Route path="services/:category/:service" element={<ServiceItem />} />
-              <Route path="portfolio" element={<Portfolio />} />
+              <Route path="shopify" element={<Shopify />} />
+              <Route path="woocommerce" element={<WooCommerce />} />
               <Route path="contact" element={<Contact />} />
               <Route path="research" element={<Research />} />
-              <Route path="intelligence" element={<Intelligence />} />
               <Route path="blog" element={<Blog />} />
               <Route path="blog/category/:category" element={<Blog />} />
               <Route path="blog/:slug" element={<BlogArticle />} />
+              <Route path="legal/:type" element={<LegalPage />} />
               <Route path="*" element={<NotFound />} />
             </Route>
           </Routes>

@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-slate-900">
       <div className="max-w-7xl mx-auto px-6 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Zap size={16} className="text-cyan-400" />
@@ -36,6 +36,44 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-white font-bold mb-4">{t('footer.legal')}</h4>
+            <ul className="space-y-2">
+              <li>
+                <Link
+                  to="/legal/privacy"
+                  className="text-slate-500 hover:text-cyan-400 transition-colors text-sm"
+                >
+                  {t('footer.privacyPolicy')}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/legal/terms"
+                  className="text-slate-500 hover:text-cyan-400 transition-colors text-sm"
+                >
+                  {t('footer.termsConditions')}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/legal/cookies"
+                  className="text-slate-500 hover:text-cyan-400 transition-colors text-sm"
+                >
+                  {t('footer.cookiePolicy')}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/legal/refund"
+                  className="text-slate-500 hover:text-cyan-400 transition-colors text-sm"
+                >
+                  {t('footer.refundPolicy')}
+                </Link>
+              </li>
             </ul>
           </div>
 

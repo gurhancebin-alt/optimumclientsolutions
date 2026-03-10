@@ -3,13 +3,13 @@
 
 export const founderProfile = {
   name: "Gürhan Çebin",
-  title: "E-commerce Data Analyst & Strategist",
+  title: "CEO",
   tagline: "E-Commerce Strategy Built on Data, Not Guesswork",
   subtitle: "I operate at the intersection of analytics, marketplace intelligence, and operational execution.",
   microProof: ["E-commerce Data Analyst", "Marketplace Strategist", "Research-Driven Consultant"],
   ctas: [
     { text: "View My Methodology", link: "#framework", type: "primary" },
-    { text: "Explore Intelligence Hub", link: "/intelligence", type: "secondary" }
+    { text: "View Services", link: "/services", type: "secondary" }
   ]
 };
 
@@ -261,7 +261,7 @@ export const targetAudiences = [
     ],
     cta: {
       text: "Start with Market Validation",
-      link: "/intelligence",
+      link: "/services",
       type: "primary"
     }
   },
