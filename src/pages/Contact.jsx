@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet-async';
 import { Clock, MessageSquare, CheckCircle2, AlertCircle, ExternalLink, MessageCircle, Loader2, Shield } from 'lucide-react';
@@ -31,6 +31,15 @@ export default function Contact() {
   // Check if Turnstile is configured
   const turnstileEnabled = !!import.meta.env.VITE_TURNSTILE_SITE_KEY;
 
+  // Debug logging for Turnstile configuration
+  useEffect(() => {
+    console.log('Turnstile Configuration:', {
+      enabled: turnstileEnabled,
+      siteKey: import.meta.env.VITE_TURNSTILE_SITE_KEY ? 'Set' : 'Missing',
+      environment: import.meta.env.MODE
+    });
+  }, [turnstileEnabled]);
+
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
     if (name === 'serviceCategory') {
@@ -41,11 +50,13 @@ export default function Contact() {
   };
 
   const handleTurnstileSuccess = (token) => {
+    console.log('Turnstile verification successful');
     setTurnstileToken(token);
     setTurnstileError(false);
   };
 
-  const handleTurnstileError = () => {
+  const handleTurnstileError = (errorCode) => {
+    console.error('Turnstile error:', errorCode);
     setTurnstileError(true);
     setTurnstileToken(null);
   };
