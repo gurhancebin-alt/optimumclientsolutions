@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet-async';
 import { Clock, MessageSquare, CheckCircle2, AlertCircle, ExternalLink, MessageCircle, Loader2, Shield } from 'lucide-react';
 import emailjs from '@emailjs/browser';
-import { Turnstile } from '@marsidev/react-turnstile';
 import HeroSection from '../components/ui/HeroSection';
 import GlassCard from '../components/ui/GlassCard';
 import AnimatedSection from '../components/ui/AnimatedSection';
@@ -29,16 +28,33 @@ export default function Contact() {
   });
 
   // Check if Turnstile is configured
-  const turnstileEnabled = !!import.meta.env.VITE_TURNSTILE_SITE_KEY;
+  const turnstileEnabled = true;
 
-  // Debug logging for Turnstile configuration
+  // Set up global Turnstile callback functions
   useEffect(() => {
-    console.log('Turnstile Configuration:', {
-      enabled: turnstileEnabled,
-      siteKey: import.meta.env.VITE_TURNSTILE_SITE_KEY ? 'Set' : 'Missing',
-      environment: import.meta.env.MODE
-    });
-  }, [turnstileEnabled]);
+    window.onTurnstileSuccess = (token) => {
+      console.log('Turnstile verification successful');
+      setTurnstileToken(token);
+      setTurnstileError(false);
+    };
+
+    window.onTurnstileError = (errorCode) => {
+      console.error('Turnstile error:', errorCode);
+      setTurnstileError(true);
+      setTurnstileToken(null);
+    };
+
+    window.onTurnstileExpire = () => {
+      console.log('Turnstile token expired');
+      setTurnstileToken(null);
+    };
+
+    return () => {
+      delete window.onTurnstileSuccess;
+      delete window.onTurnstileError;
+      delete window.onTurnstileExpire;
+    };
+  }, []);
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -49,17 +65,7 @@ export default function Contact() {
     }
   };
 
-  const handleTurnstileSuccess = (token) => {
-    console.log('Turnstile verification successful');
-    setTurnstileToken(token);
-    setTurnstileError(false);
-  };
 
-  const handleTurnstileError = (errorCode) => {
-    console.error('Turnstile error:', errorCode);
-    setTurnstileError(true);
-    setTurnstileToken(null);
-  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -140,6 +146,7 @@ export default function Contact() {
       <Helmet>
         <title>{t('meta.title')}</title>
         <meta name="description" content={t('meta.description')} />
+        <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
       </Helmet>
 
       <HeroSection title={t('hero.title')} subtitle={t('hero.subtitle')} />
@@ -232,16 +239,14 @@ export default function Contact() {
                           Bot Verification *
                         </label>
                         <div className="flex justify-center md:justify-start">
-                          <Turnstile
-                            siteKey={import.meta.env.VITE_TURNSTILE_SITE_KEY}
-                            onSuccess={handleTurnstileSuccess}
-                            onError={handleTurnstileError}
-                            onExpire={() => setTurnstileToken(null)}
-                            options={{
-                              theme: 'dark',
-                              size: 'normal',
-                            }}
-                          />
+                          <div 
+                            className="cf-turnstile" 
+                            data-sitekey="0x4AAAAAACo4R7y20LKiPTpH"
+                            data-theme="dark"
+                            data-callback="onTurnstileSuccess"
+                            data-error-callback="onTurnstileError"
+                            data-expired-callback="onTurnstileExpire"
+                          ></div>
                         </div>
                         {turnstileError && (
                           <p className="text-red-400 text-sm mt-2 flex items-center gap-1">
