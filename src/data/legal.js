@@ -183,7 +183,7 @@ export const legalContent = {
       },
       {
         heading: "10. Contact for Refunds",
-        content: "For all refund inquiries, contact: refunds@optimumclientsolutions.com or use our contact form with 'Refund Request' in the subject line."
+        content: "For all refund inquiries, contact: gurhan.cebin@optimumclientsolutions.com or use our contact form with 'Refund Request' in the subject line."
       }
     ]
   }
