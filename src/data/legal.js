@@ -41,7 +41,7 @@ export const legalContent = {
       },
       {
         heading: "10. Contact Information",
-        content: "For questions about this privacy policy or to exercise your data rights, contact us at: privacy@optimumclientsolutions.com or through our contact form."
+        content: "For questions about this privacy policy or to exercise your data rights, contact us at: gurhan.cebin@optimumclientsolutions.com or through our contact form."
       }
     ]
   },
@@ -99,7 +99,7 @@ export const legalContent = {
       },
       {
         heading: "13. Contact",
-        content: "For questions regarding these Terms and Conditions, contact us at: legal@optimumclientsolutions.com"
+        content: "For questions regarding these Terms and Conditions, contact us at: gurhan.cebin@optimumclientsolutions.com"
       }
     ]
   },
@@ -137,7 +137,7 @@ export const legalContent = {
       },
       {
         heading: "8. Contact Us",
-        content: "For questions about our cookie practices, email us at: privacy@optimumclientsolutions.com"
+        content: "For questions about our cookie practices, email us at: gurhan.cebin@optimumclientsolutions.com"
       }
     ]
   },
@@ -183,7 +183,7 @@ export const legalContent = {
       },
       {
         heading: "10. Contact for Refunds",
-        content: "For all refund inquiries, contact: refunds@optimumclientsolutions.com or use our contact form with 'Refund Request' in the subject line."
+        content: "For all refund inquiries, contact: gurhan.cebin@optimumclientsolutions.com or use our contact form with 'Refund Request' in the subject line."
       }
     ]
   }
