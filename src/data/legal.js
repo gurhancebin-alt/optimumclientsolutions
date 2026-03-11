@@ -5,7 +5,7 @@ export const legalContent = {
     sections: [
       {
         heading: "1. Introduction",
-        content: "Optimum Client Solutions ('we', 'our', 'us') respects your privacy and is committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you visit our website or use our services."
+        content: "Optimum Client Solutions ('we', 'our', 'us'), registered in Amsterdam, Netherlands (KVK: 96809086, VAT: NL005234152B76), respects your privacy and is committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you visit our website or use our services."
       },
       {
         heading: "2. Information We Collect",
@@ -51,7 +51,7 @@ export const legalContent = {
     sections: [
       {
         heading: "1. Acceptance of Terms",
-        content: "By accessing or using the services of Optimum Client Solutions, you agree to be bound by these Terms and Conditions. These terms constitute a legally binding agreement between you and Optimum Client Solutions. If you do not agree with any part of these terms, you must not use our services."
+        content: "By accessing or using the services of Optimum Client Solutions (Amsterdam, Netherlands; KVK: 96809086; VAT: NL005234152B76), you agree to be bound by these Terms and Conditions. These terms constitute a legally binding agreement between you and Optimum Client Solutions. If you do not agree with any part of these terms, you must not use our services."
       },
       {
         heading: "2. Services Description",
@@ -91,7 +91,7 @@ export const legalContent = {
       },
       {
         heading: "11. Governing Law",
-        content: "These terms are governed by the laws of [Your Jurisdiction], without regard to conflict of law principles. Any disputes shall be resolved through good-faith negotiation or, if necessary, arbitration in accordance with [Applicable Arbitration Rules]."
+        content: "These terms are governed by the laws of the Netherlands, without regard to conflict of law principles. Any disputes shall be resolved through good-faith negotiation or, if necessary, arbitration in accordance with the Dutch Arbitration Rules."
       },
       {
         heading: "12. Modifications",
