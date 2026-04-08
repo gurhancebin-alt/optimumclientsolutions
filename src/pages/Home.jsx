@@ -156,30 +156,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 3-Step Process */}
-      <section className="py-24 px-6">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">{t('process.heading')}</h2>
-            <p className="text-cyan-400 text-lg">{t('process.subheading')}</p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {t('process.steps', { returnObjects: true }).map((step, idx) => (
-              <div key={idx} className="relative">
-                <div className="bg-slate-900 border border-slate-800 rounded-2xl p-8 h-full">
-                  <div className="text-5xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-4">
-                    {step.number}
-                  </div>
-                  <h3 className="text-2xl font-bold text-white mb-4">{step.title}</h3>
-                  <p className="text-slate-400">{step.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Common Pains */}
       <section className="py-24 px-6 bg-slate-900/50">
         <div className="max-w-7xl mx-auto">
@@ -188,52 +164,28 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold text-white">{t('problems.subheading')}</h2>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {t('problems.items', { returnObjects: true }).map((problem, idx) => {
-              const IconComponent = {
-                Users,
-                TrendingDown,
-                RefreshCw,
-                AlertCircle
-              }[problem.icon] || AlertCircle;
-              
-              return (
-                <div key={idx} className="bg-slate-900 border border-slate-800 rounded-2xl p-6">
-                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-500/30 flex items-center justify-center mb-4">
-                    <IconComponent className="text-cyan-400" size={24} />
-                  </div>
-                  <h3 className="text-lg font-bold text-white mb-2">{problem.title}</h3>
-                  <p className="text-slate-400 text-sm">{problem.description}</p>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* Stats Section */}
-      <section className="py-24 px-6 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-blue-500/5" />
-        <div className="max-w-7xl mx-auto relative z-10">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
-            {t('stats.items', { returnObjects: true }).map((stat, idx) => (
-              <div key={idx} className="text-center">
-                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-2">
-                  {stat.value}
-                </div>
-                <div className="text-slate-400 text-sm">{stat.label}</div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6">
+              <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-500/30 flex items-center justify-center mb-4">
+                <AlertCircle className="text-cyan-400" size={24} />
               </div>
-            ))}
-          </div>
-          <div className="text-center">
-            <p className="text-xl text-white mb-8">{t('stats.heading')}</p>
-            <Link 
-              to="/contact"
-              className="inline-flex items-center space-x-2 px-8 py-4 bg-cyan-500 text-white rounded-xl font-bold hover:bg-cyan-400 transition-all shadow-lg shadow-cyan-500/20"
-            >
-              <span>{t('stats.cta')}</span>
-              <ArrowRight size={18} />
-            </Link>
+              <h3 className="text-lg font-bold text-white mb-2">Technical Complications</h3>
+              <p className="text-slate-400 text-sm">Complex integrations and platform configurations that demand specialized expertise and constant maintenance.</p>
+            </div>
+            <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6">
+              <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-500/30 flex items-center justify-center mb-4">
+                <BarChart3 className="text-cyan-400" size={24} />
+              </div>
+              <h3 className="text-lg font-bold text-white mb-2">Complex Data Overload</h3>
+              <p className="text-slate-400 text-sm">Drowning in metrics and analytics from multiple platforms without clarity on what actually matters for growth.</p>
+            </div>
+            <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6">
+              <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-500/30 flex items-center justify-center mb-4">
+                <Lightbulb className="text-cyan-400" size={24} />
+              </div>
+              <h3 className="text-lg font-bold text-white mb-2">Noise in Your Strategy</h3>
+              <p className="text-slate-400 text-sm">Too many recommendations and trends clouding your decision-making, making it hard to focus on what drives real results.</p>
+            </div>
           </div>
         </div>
       </section>
