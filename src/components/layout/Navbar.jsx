@@ -39,7 +39,7 @@ export default function Navbar() {
             to="/contact"
             className="bg-white text-slate-950 px-5 py-2.5 rounded-full hover:bg-cyan-400 transition-all font-bold"
           >
-            {t('nav.freeAudit')}
+            {t('cta.contactUs')}
           </Link>
         </div>
 
@@ -71,7 +71,7 @@ export default function Navbar() {
             onClick={() => setIsOpen(false)}
             className="block w-full text-center bg-white text-slate-950 px-5 py-2.5 rounded-full hover:bg-cyan-400 transition-all font-bold"
           >
-            {t('nav.freeAudit')}
+            {t('cta.contactUs')}
           </Link>
         </div>
       )}

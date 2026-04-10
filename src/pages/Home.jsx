@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet-async';
 import {
-  ArrowRight, CheckCircle2, Globe, Zap, PieChart, Filter, ShoppingBag, Layout, Cpu
+  ArrowRight, CheckCircle2, Globe, Zap, PieChart, Filter, ShoppingBag, Layout, Cpu, ChevronDown
 } from 'lucide-react';
 import FAQAccordion from '../components/ui/FAQAccordion';
 import { homeFAQ } from '../data/faq';
@@ -11,6 +11,7 @@ import { homeFAQ } from '../data/faq';
 export default function Home() {
   const { t } = useTranslation('home');
   const [activeFaq, setActiveFaq] = useState(null);
+  const [showAllFaqs, setShowAllFaqs] = useState(false);
 
   const toggleFaq = (index) => {
     setActiveFaq(activeFaq === index ? null : index);
@@ -24,190 +25,211 @@ export default function Home() {
       </Helmet>
     
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 bg-gradient-to-br from-indigo-900 to-slate-900 text-white overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <div className="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-400/20 px-4 py-2 rounded-full mb-6">
-                <span className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></span>
-                <span className="text-blue-200 text-xs font-bold tracking-widest uppercase">Empowering Start-ups & SMEs</span>
+      <section className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 bg-slate-950 overflow-hidden relative">
+        {/* Background Gradient */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full pointer-events-none overflow-hidden">
+          <div className="absolute top-20 left-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-[120px]" />
+          <div className="absolute bottom-20 right-1/4 w-96 h-96 bg-indigo-500/10 rounded-full blur-[120px]" />
+        </div>
+
+        <div className="relative z-10">
+          {/* Announcement Badge */}
+          <a href="#services" className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-slate-400 bg-slate-900 rounded-full hover:bg-slate-800 transition-colors">
+            <span className="text-xs bg-cyan-500 rounded-full text-white px-4 py-1.5 mr-3">NEW</span>
+            <span className="text-sm font-medium">Scale with AI-powered automation</span>
+            <ArrowRight className="ml-2 w-4 h-4" />
+          </a>
+
+          {/* Main Headline */}
+          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
+            Scale Your E-commerce with <span className="text-cyan-400">AI Precision</span>
+          </h1>
+
+          {/* Subtitle */}
+          <p className="mb-8 text-lg font-normal text-slate-400 lg:text-xl sm:px-16 xl:px-48">
+            We leverage advanced data analytics and AI-powered automation to handle massive workloads in seconds, creating winning digital market strategies for your growing business.
+          </p>
+
+          {/* Dual CTA Buttons */}
+          <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+            <Link to="/contact" className="inline-flex justify-center items-center py-3 px-6 text-base font-bold text-center text-slate-950 rounded-xl bg-white hover:bg-cyan-400 transition-all">
+              Book a Strategy Session
+              <ArrowRight className="ml-2 w-5 h-5" />
+            </Link>
+            <Link to="/services" className="inline-flex justify-center items-center py-3 px-6 text-base font-bold text-center text-white rounded-xl border-2 border-cyan-400/30 hover:bg-white/10 transition-all">
+              View Services
+              <ArrowRight className="ml-2 w-5 h-5" />
+            </Link>
+          </div>
+          {/* Client Logos Section */}
+          <div className="mt-20 pt-12">
+            <p className="text-slate-400 text-sm font-semibold uppercase tracking-widest mb-10">Powered by & Integrated with</p>
+            <div className="flex flex-wrap justify-center items-center gap-6 lg:gap-8">
+              <div className="w-36 h-36 lg:w-44 lg:h-44 flex items-center justify-center opacity-80 hover:opacity-100 transition-opacity">
+                <img src="/images/logos/shopify_logo_darkbg.svg" alt="Shopify" className="h-12 lg:h-15" />
               </div>
-              <h1 className="text-5xl lg:text-7xl font-extrabold leading-tight mb-6">
-                Scale Your E-commerce with <span className="text-blue-400">AI Precision</span>
-              </h1>
-              <p className="text-xl text-slate-300 mb-10 max-w-xl leading-relaxed">
-                We leverage advanced data analytics and AI-powered automation to handle massive workloads in seconds, creating winning digital market strategies for your growing business.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link to="/contact" className="bg-blue-600 text-white px-8 py-4 rounded-xl font-bold text-center hover:bg-blue-500 transition-all flex items-center justify-center gap-2">
-                  Book a Strategy Session
-                  <ArrowRight className="w-5 h-5" />
-                </Link>
-                <Link to="/services" className="bg-white/10 backdrop-blur-md text-white border border-white/20 px-8 py-4 rounded-xl font-bold text-center hover:bg-white/20 transition-all">
-                  View Services
-                </Link>
+              <div className="w-36 h-36 lg:w-44 lg:h-44 flex items-center justify-center opacity-80 hover:opacity-100 transition-opacity">
+                <img src="/images/logos/Woo_logo_color.svg" alt="WooCommerce" className="h-12 lg:h-15" />
               </div>
-            </div>
-            
-            <div className="relative hidden lg:block">
-              <div className="bg-white/5 backdrop-blur-xl p-8 rounded-3xl shadow-2xl border border-white/10">
-                <div className="flex items-center justify-between mb-8">
-                  <div className="space-y-1">
-                    <div className="h-2 w-24 bg-blue-400/30 rounded"></div>
-                    <div className="h-2 w-32 bg-blue-400/50 rounded"></div>
-                  </div>
-                  <Cpu className="text-blue-400 w-8 h-8" />
-                </div>
-                <div className="space-y-4">
-                  <div className="h-32 bg-slate-800/50 rounded-xl flex items-end p-4 gap-2">
-                    <div className="flex-1 bg-blue-500 h-[40%] rounded-t-sm"></div>
-                    <div className="flex-1 bg-blue-400 h-[70%] rounded-t-sm"></div>
-                    <div className="flex-1 bg-blue-600 h-[55%] rounded-t-sm"></div>
-                    <div className="flex-1 bg-blue-300 h-[90%] rounded-t-sm"></div>
-                    <div className="flex-1 bg-blue-500 h-[65%] rounded-t-sm"></div>
-                  </div>
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="bg-slate-800/50 h-20 rounded-xl flex items-center justify-center">
-                      <div className="text-center">
-                        <div className="text-xs text-slate-400 uppercase font-bold">Data Filtered</div>
-                        <div className="text-xl font-bold">99.9%</div>
-                      </div>
-                    </div>
-                    <div className="bg-slate-800/50 h-20 rounded-xl flex items-center justify-center">
-                      <div className="text-center">
-                        <div className="text-xs text-slate-400 uppercase font-bold">AI Efficiency</div>
-                        <div className="text-xl font-bold">+450%</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div className="w-36 h-36 lg:w-44 lg:h-44 flex items-center justify-center opacity-80 hover:opacity-100 transition-opacity">
+                <img src="/images/logos/OpenAI-white-monoblossom.svg" alt="OpenAI" className="h-12 lg:h-15" />
+              </div>
+              <div className="w-36 h-36 lg:w-44 lg:h-44 flex items-center justify-center opacity-80 hover:opacity-100 transition-opacity">
+                <img src="/images/logos/squarespace-logo-horizontal-white.svg" alt="Squarespace" className="h-12 lg:h-15" />
+              </div>
+              <div className="w-36 h-36 lg:w-44 lg:h-44 flex items-center justify-center opacity-80 hover:opacity-100 transition-opacity">
+                <img src="/images/logos/TIKTOK_PRIMARY_LOGO_WHITE.svg" alt="TikTok" className="h-12 lg:h-15" />
               </div>
             </div>
           </div>
         </div>
-        <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/2 w-96 h-96 bg-blue-600/20 rounded-full blur-[120px]"></div>
-        <div className="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/2 w-96 h-96 bg-indigo-600/20 rounded-full blur-[120px]"></div>
       </section>
 
       {/* Leveraging AI & Big Data Section */}
-      <section className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl font-extrabold mb-4 text-slate-900">Leveraging AI & Big Data</h2>
-            <p className="text-slate-600">We don't just provide data; we provide clarity. We compare your results against big data market giants to generate actionable growth strategies.</p>
+      <section className="py-24 bg-slate-900/50 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center max-w-3xl mx-auto mb-20">
+            <span className="inline-block px-3 py-1 text-xs bg-cyan-500/20 text-cyan-400 rounded-full mb-4 font-semibold uppercase">Our Approach</span>
+            <h2 className="text-3xl md:text-4xl font-extrabold mb-4 text-white">Leveraging AI & Big Data</h2>
+            <p className="text-slate-400 text-lg">We don't just provide data; we provide clarity. We compare your results against big data market giants to generate actionable growth strategies.</p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="p-8 rounded-2xl border border-slate-100 bg-slate-50 hover:shadow-xl transition-shadow">
-              <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6">
-                <Zap className="w-6 h-6" />
+          <div className="grid md:grid-cols-3 gap-12">
+            <div className="flex flex-col">
+              <div className="mb-4">
+                <div className="inline-flex items-center justify-center w-14 h-14 bg-cyan-500/20 text-cyan-400 rounded-lg">
+                  <Zap className="w-7 h-7" />
+                </div>
               </div>
-              <h3 className="text-xl font-bold mb-3 text-slate-900">AI Task Automation</h3>
-              <p className="text-slate-600">Handle day-to-day tasks that would usually take your team days to complete in just seconds using our proprietary AI workflows.</p>
+              <h3 className="text-xl font-bold mb-3 text-white">AI Task Automation</h3>
+              <p className="text-slate-400 mb-6 flex-grow">Handle day-to-day tasks that would usually take your team days to complete in just seconds using our proprietary AI workflows.</p>
+              <Link to="/services" className="text-cyan-400 font-semibold hover:text-cyan-300 flex items-center gap-2 transition-colors">
+                Learn more
+                <ArrowRight className="w-4 h-4" />
+              </Link>
             </div>
-            <div className="p-8 rounded-2xl border border-slate-100 bg-slate-50 hover:shadow-xl transition-shadow">
-              <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6">
-                <Globe className="w-6 h-6" />
+
+            <div className="flex flex-col">
+              <div className="mb-4">
+                <div className="inline-flex items-center justify-center w-14 h-14 bg-cyan-500/20 text-cyan-400 rounded-lg">
+                  <Globe className="w-7 h-7" />
+                </div>
               </div>
-              <h3 className="text-xl font-bold mb-3 text-slate-900">Big Data Benchmarking</h3>
-              <p className="text-slate-600">We tap into global market datasets to compare your results against the competition, identifying missed opportunities for scale.</p>
+              <h3 className="text-xl font-bold mb-3 text-white">Big Data Benchmarking</h3>
+              <p className="text-slate-400 mb-6 flex-grow">We tap into global market datasets to compare your results against the competition, identifying missed opportunities for scale.</p>
+              <Link to="/services" className="text-cyan-400 font-semibold hover:text-cyan-300 flex items-center gap-2 transition-colors">
+                Learn more
+                <ArrowRight className="w-4 h-4" />
+              </Link>
             </div>
-            <div className="p-8 rounded-2xl border border-slate-100 bg-slate-50 hover:shadow-xl transition-shadow">
-              <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6">
-                <PieChart className="w-6 h-6" />
+
+            <div className="flex flex-col">
+              <div className="mb-4">
+                <div className="inline-flex items-center justify-center w-14 h-14 bg-cyan-500/20 text-cyan-400 rounded-lg">
+                  <PieChart className="w-7 h-7" />
+                </div>
               </div>
-              <h3 className="text-xl font-bold mb-3 text-slate-900">Strategic Generation</h3>
-              <p className="text-slate-600">Automated generation of detailed digital marketing strategies tailored specifically to your niche and customer behavior data.</p>
+              <h3 className="text-xl font-bold mb-3 text-white">Strategic Generation</h3>
+              <p className="text-slate-400 mb-6 flex-grow">Automated generation of detailed digital marketing strategies tailored specifically to your niche and customer behavior data.</p>
+              <Link to="/services" className="text-cyan-400 font-semibold hover:text-cyan-300 flex items-center gap-2 transition-colors">
+                Learn more
+                <ArrowRight className="w-4 h-4" />
+              </Link>
             </div>
+          </div>
+
+          <div className="mt-16 text-center">
+            <Link to="/services" className="inline-flex items-center justify-center px-8 py-3 text-base font-bold text-white bg-cyan-500 rounded-xl hover:bg-cyan-600 transition-all">
+              Explore All Services
+              <ArrowRight className="ml-2 w-5 h-5" />
+            </Link>
           </div>
         </div>
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-24 bg-slate-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
-            <div className="max-w-2xl">
-              <h2 className="text-4xl font-extrabold mb-4 text-slate-900">Core E-commerce Services</h2>
-              <p className="text-slate-600">Comprehensive management and development support for the world's leading sales platforms.</p>
-            </div>
-            <Link to="/services" className="text-blue-600 font-bold hover:underline flex items-center gap-1">
-              Explore All SERVICES
-              <ArrowRight className="w-4 h-4" />
-            </Link>
+      <section id="services" className="py-24 bg-slate-950 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <span className="inline-block px-3 py-1 text-xs bg-cyan-500/20 text-cyan-400 rounded-full mb-4 font-semibold uppercase">What We Do</span>
+            <h2 className="text-3xl font-extrabold mb-4 text-white">Core E-commerce Services</h2>
+            <p className="text-slate-400">Comprehensive management and development support for the world's leading sales platforms.</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-10">
             {/* Shopify */}
-            <div className="bg-white p-10 rounded-3xl shadow-sm border border-slate-100 flex flex-col items-start">
+            <div className="bg-white/5 backdrop-blur p-10 rounded-3xl border border-cyan-400/20 flex flex-col items-start">
               <div className="flex items-center gap-3 mb-6">
-                <ShoppingBag className="text-green-600 w-8 h-8" />
-                <h3 className="text-2xl font-bold uppercase tracking-wide text-slate-900">Shopify</h3>
+                <ShoppingBag className="text-cyan-400 w-8 h-8" />
+                <h3 className="text-2xl font-bold uppercase tracking-wide text-white">Shopify</h3>
               </div>
-              <ul className="space-y-4 mb-8 text-slate-600 flex-1">
+              <ul className="space-y-4 mb-8 text-slate-400 flex-1">
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-blue-500 mt-1 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-cyan-400 mt-1 flex-shrink-0" />
                   Custom storefront development & Liquid optimization
                 </li>
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-blue-500 mt-1 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-cyan-400 mt-1 flex-shrink-0" />
                   Inventory & fulfillment AI automation
                 </li>
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-blue-500 mt-1 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-cyan-400 mt-1 flex-shrink-0" />
                   Conversion Rate Optimization (CRO) analytics
                 </li>
               </ul>
-              <Link to="/shopify" className="w-full py-3 px-6 bg-slate-900 text-white rounded-xl font-bold hover:bg-slate-800 transition text-center">Get Shopify Support</Link>
+              <Link to="/shopify" className="w-full py-3 px-6 bg-white text-slate-950 rounded-xl font-bold hover:bg-cyan-400 transition text-center">Get Shopify Support</Link>
             </div>
 
             {/* WooCommerce */}
-            <div className="bg-white p-10 rounded-3xl shadow-sm border border-slate-100 flex flex-col items-start">
+            <div className="bg-white/5 backdrop-blur p-10 rounded-3xl border border-cyan-400/20 flex flex-col items-start">
               <div className="flex items-center gap-3 mb-6">
-                <Layout className="text-purple-600 w-8 h-8" />
-                <h3 className="text-2xl font-bold uppercase tracking-wide text-slate-900">WooCommerce</h3>
+                <Layout className="text-cyan-400 w-8 h-8" />
+                <h3 className="text-2xl font-bold uppercase tracking-wide text-white">WooCommerce</h3>
               </div>
-              <ul className="space-y-4 mb-8 text-slate-600 flex-1">
+              <ul className="space-y-4 mb-8 text-slate-400 flex-1">
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-blue-500 mt-1 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-cyan-400 mt-1 flex-shrink-0" />
                   Enterprise-grade WordPress hosting & management
                 </li>
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-blue-500 mt-1 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-cyan-400 mt-1 flex-shrink-0" />
                   Plugin performance tuning & security audits
                 </li>
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-blue-500 mt-1 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-cyan-400 mt-1 flex-shrink-0" />
                   Advanced data tracking & pixel integration
                 </li>
               </ul>
-              <Link to="/woocommerce" className="w-full py-3 px-6 bg-slate-900 text-white rounded-xl font-bold hover:bg-slate-800 transition text-center">Get WooCommerce Support</Link>
+              <Link to="/woocommerce" className="w-full py-3 px-6 bg-white text-slate-950 rounded-xl font-bold hover:bg-cyan-400 transition text-center">Get WooCommerce Support</Link>
             </div>
           </div>
         </div>
       </section>
 
       {/* About Us Section */}
-      <section id="about" className="py-24 bg-white overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section id="about" className="py-24 bg-slate-900/50 px-6 overflow-hidden">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <span className="inline-block px-3 py-1 text-xs bg-cyan-500/20 text-cyan-400 rounded-full mb-4 font-semibold uppercase">Our Mission</span>
+            <h2 className="text-4xl font-extrabold mb-8 uppercase tracking-tight text-white">About Us</h2>
+          </div>
           <div className="grid lg:grid-cols-2 gap-20 items-center">
             <div className="relative">
-              <div className="w-full aspect-square bg-blue-100 rounded-3xl flex items-center justify-center">
-                <Filter className="w-48 h-48 text-blue-200" />
+              <div className="w-full aspect-square bg-cyan-500/10 rounded-3xl flex items-center justify-center">
+                <Filter className="w-48 h-48 text-cyan-400/30" />
               </div>
-              <div className="absolute -bottom-6 -right-6 bg-blue-600 p-8 rounded-2xl text-white shadow-xl max-w-xs">
+              <div className="absolute -bottom-6 -right-6 bg-gradient-to-br from-cyan-500/20 to-indigo-500/20 border border-cyan-400/20 p-8 rounded-2xl text-white shadow-xl max-w-xs">
                 <p className="text-lg italic">"We filter the noise from technical practicality and complex data."</p>
               </div>
             </div>
             <div>
-              <h2 className="text-4xl font-extrabold mb-8 uppercase tracking-tight text-slate-900">ABOUT US</h2>
-              <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
-                <p>At <strong>Optimum Client Solutions</strong>, we stand for the growth and sustainability of start-ups and SMEs. We believe that technology shouldn't be a barrier, but a catalyst.</p>
+              <div className="space-y-6 text-lg text-slate-400 leading-relaxed">
+                <p>At <strong className="text-white">Optimum Client Solutions</strong>, we stand for the growth and sustainability of start-ups and SMEs. We believe that technology shouldn't be a barrier, but a catalyst.</p>
                 <p>With OCS, we support start-ups by helping them get a clearer view of what is ahead. We understand that data can be overwhelming, which is why our mission is to filter out the noise, focusing only on what is technically practical and commercially valuable.</p>
                 <p>We bridge the gap between complex big-data analytics and the daily operational needs of an E-commerce business.</p>
               </div>
               <div className="mt-10">
-                <Link to="/about" className="inline-flex items-center gap-2 font-bold text-blue-600 hover:gap-4 transition-all">
+                <Link to="/about" className="inline-flex items-center gap-2 font-bold text-cyan-400 hover:text-cyan-300 transition-all">
                   Learn more about our mission
                   <ArrowRight className="w-5 h-5" />
                 </Link>
@@ -218,32 +240,49 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
-      <FAQAccordion
-        faqs={homeFAQ}
-        title={t('faq.title')}
-        subtitle={t('faq.subtitle')}
-        sectionId="faq"
-        className="bg-slate-50"
-      />
+      <section className="py-24 bg-slate-950 px-6">
+        <div className="max-w-7xl mx-auto">
+          <FAQAccordion
+            faqs={showAllFaqs ? homeFAQ : homeFAQ.slice(0, 4)}
+            title={t('faq.title')}
+            subtitle={t('faq.subtitle')}
+            sectionId="faq"
+          />
+          
+          {homeFAQ.length > 4 && (
+            <div className="flex justify-center mt-8">
+              <button
+                onClick={() => setShowAllFaqs(!showAllFaqs)}
+                className="inline-flex items-center gap-2 px-6 py-3 font-semibold text-cyan-400 hover:text-cyan-300 transition-colors"
+              >
+                {showAllFaqs ? 'Show Less' : 'Show More'}
+                <ChevronDown 
+                  className={`w-5 h-5 transition-transform ${showAllFaqs ? 'rotate-180' : ''}`}
+                />
+              </button>
+            </div>
+          )}
+        </div>
+      </section>
 
       {/* Contact Us Section */}
-      <section id="contact" className="py-24 bg-white">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-blue-600 rounded-[3rem] p-12 text-white text-center relative overflow-hidden shadow-2xl shadow-blue-300">
+      <section id="contact" className="py-24 bg-slate-900/50 px-6">
+        <div className="max-w-5xl mx-auto">
+          <div className="bg-gradient-to-br from-indigo-900/20 to-cyan-900/20 border border-cyan-500/20 rounded-[3rem] p-12 text-white text-center relative overflow-hidden shadow-2xl">
             <div className="relative z-10">
               <h2 className="text-4xl font-extrabold mb-6 uppercase tracking-tight">CONTACT US</h2>
-              <p className="text-xl text-blue-100 mb-10 max-w-2xl mx-auto">Ready to filter the noise and start growing? Book an appointment or send us your questions today.</p>
+              <p className="text-xl text-slate-400 mb-10 max-w-2xl mx-auto">Ready to filter the noise and start growing? Book an appointment or send us your questions today.</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <Link to="/contact" className="bg-white text-blue-600 px-8 py-4 rounded-xl font-extrabold text-lg hover:bg-blue-50 transition-all w-full sm:w-auto">
+                <Link to="/contact" className="bg-white text-slate-950 px-8 py-4 rounded-xl font-extrabold text-lg hover:bg-cyan-400 transition-all w-full sm:w-auto">
                   Book an Appointment
                 </Link>
-                <Link to="/contact" className="border-2 border-white/30 text-white px-8 py-4 rounded-xl font-extrabold text-lg hover:bg-white/10 transition-all w-full sm:w-auto">
+                <Link to="/contact" className="border-2 border-cyan-400/30 text-white px-8 py-4 rounded-xl font-extrabold text-lg hover:bg-white/10 transition-all w-full sm:w-auto">
                   Visit Contact Page
                 </Link>
               </div>
             </div>
-            <div className="absolute -top-24 -left-24 w-64 h-64 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-50"></div>
-            <div className="absolute -bottom-24 -right-24 w-64 h-64 bg-indigo-500 rounded-full mix-blend-multiply filter blur-3xl opacity-50"></div>
+            <div className="absolute -top-24 -left-24 w-64 h-64 bg-cyan-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
+            <div className="absolute -bottom-24 -right-24 w-64 h-64 bg-indigo-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
           </div>
         </div>
       </section>
