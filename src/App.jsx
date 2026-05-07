@@ -15,8 +15,19 @@ import Blog from './pages/Blog';
 import BlogArticle from './pages/BlogArticle';
 import LegalPage from './pages/LegalPage';
 import NotFound from './pages/NotFound';
+import Offline from './pages/Offline';
+import { MAINTENANCE_MODE } from './utils/constants';
 
 function App() {
+  if (MAINTENANCE_MODE) {
+    return (
+      <ErrorBoundary>
+        <HelmetProvider>
+          <Offline />
+        </HelmetProvider>
+      </ErrorBoundary>
+    );
+  }
   return (
     <ErrorBoundary>
       <HelmetProvider>
